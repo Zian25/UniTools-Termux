@@ -393,4 +393,7 @@ def main():
 		print ("Verificando...")
 		att()
 
+	if pedido == "x" or pedido == "X":
+		os.system("exit")
+
 main()
