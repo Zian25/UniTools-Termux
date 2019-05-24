@@ -6,22 +6,22 @@ import time
 
 #Banner 
 def banner():
-	print ("-" * 80)
-	print ("                            #     # ####### #     # " )
-	print ("                            #     #    #     #   #  " )
-	print ("                            #     #    #      # #   " )
-	print ("                            #     #    #       #    " )
-	print ("                            #     #    #      # #   " )
-	print ("                            #     #    #     #   #  " )
-	print ("                             #####     #    #     #   v1" )
-	print ("-" * 80)
+	print ("-" * 59)
+	print ("                      #     # ####### #     # " )
+	print ("                      #     #    #     #   #  " )
+	print ("                      #     #    #      # #   " )
+	print ("                      #     #    #       #    " )
+	print ("                      #     #    #      # #   " )
+	print ("                      #     #    #     #   #  " )
+	print ("                       #####     #    #     #   v1" )
+	print ("-" * 59)
 
 # Reiniciar Programa
 def restart_program():
     python = sys.executable
     os.execl(python, python, * sys.argv)
     curdir = os.getcwd()
-    
+
 # Utilidades para facilitar
 def cc():
 	os.system("clear")
