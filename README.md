@@ -5,7 +5,7 @@
 
 
 # UniTools-Termux
-Instalador hacking para termux
+Instalador de ferramentas hacking para termux
 
 # Aviso
 Ao longo do tempo haverá mais ferramentas
