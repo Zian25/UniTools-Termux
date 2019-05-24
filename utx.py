@@ -48,7 +48,7 @@ def main():
 		#Pergunta da primeira opção de ferramentas
 		menu = input("Selecione uma opção: ")
 
-		if menu == "0":
+		if menu == "0" or menu == "00":
 			os.system("clear")
 			restart_program()
 
