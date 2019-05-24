@@ -37,6 +37,8 @@ def cc():
 def update():
 	os.system("apt-get update && apt-get upgrade && apt-get dist-upgrade -y")
 
+# Fim das Utilidades
+
 # Inicio dos 1 instaladores
 def nmap():
 	update()
