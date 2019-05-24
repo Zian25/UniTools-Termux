@@ -122,10 +122,7 @@ def main():
 			KnockMail()
 
 		else:
-			os.system("clear")
-			print ("OPS! Parece que você inseriu uma opção incorreta :(")
-			time.sleep(4)
-			restart_program()
+			erro()
 
 
 		# Fim do primeiro menu de instalação
@@ -188,10 +185,7 @@ def main():
 			MemcrashedDDoSExploit()
 
 		else:
-			os.system("clear")
-			print ("OPS! Parece que você inseriu uma opção incorreta :(")
-			time.sleep(4)
-			restart_program()
+			erro()
 
 
 	# Fim do 2 menu de instalação
@@ -240,10 +234,7 @@ def main():
 			TurkSploit()
 
 		else:
-			os.system("clear")
-			print ("OPS! Parece que você inseriu uma opção incorreta :(")
-			time.sleep(4)
-			restart_program()
+			erro()
 
 	# Fim do 3 menu de instalação
 	if pedido == "4" or pedido == "04":
@@ -310,11 +301,9 @@ def main():
 
 
 		else:
-			os.system("clear")
-			print ("OPS! Parece que você inseriu uma opção incorreta :(")
-			time.sleep(4)
-			restart_program()
-		# Fim do 4 menu de instalação
+			erro()
+
+	# Fim do 4 menu de instalação
 
 	# Começo do 5 menu de instalação
 
@@ -400,10 +389,6 @@ def main():
 		os.system("exit")
 
 	else:
-		os.system("clear")
-		print ("OPS! Parece que você inseriu uma opção incorreta :(")
-		time.sleep(3)
-		os.system("clear")
-		restart_program()
+		erro()
 
 main()

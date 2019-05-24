@@ -23,6 +23,13 @@ def restart_program():
     curdir = os.getcwd()
 
 # Utilidades para facilitar
+def erro():
+	os.system("clear")
+	print ("OPS! Parece que você inseriu uma opção incorreta :(")
+	time.sleep(3)
+	os.system("clear")
+	restart_program()
+
 def cc():
 	os.system("clear")
 	print ("Concluido!")
