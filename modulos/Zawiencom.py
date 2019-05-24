@@ -550,6 +550,7 @@ def BlackHydra():
 
 # Fim do 5 menu de instalação
 
+# Inicio do auto instalador
 def metasploit():
 	update()
 	os.system("cd ~")
@@ -561,7 +562,13 @@ def metasploit():
 	cc()
 	restart_program()
 
-# Fim do 5 menu de instalação
+def sudo():
+	os.system("git clone git@gitlab.com:st42/termux-sudo.git")
+	os.system("pkg install ncurses-utils")
+	os.system("cd termux-sudo")
+	os.system("cat sudo > /data/data/com.termux/files/usr/bin/sudo")
+	os.system("chmod 700 /data/data/com.termux/files/usr/bin/sudo")
+
 
 # Inicio da opção de atualização
 

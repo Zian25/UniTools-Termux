@@ -358,10 +358,11 @@ def main():
 				time.sleep(4)
 				restart_program()
 			# Fim do 5 menu de instalação
-
+		# Começo do 6 menu
 		if pedido == "6" or pedido == "06":
 			os.system("clear")
 			print ("          [1] Metasploit")
+			print ("          [2] Sudo su")
 			print ("          [00] Sair para o menu ")
 			print ("       ")
 
@@ -373,6 +374,9 @@ def main():
 
 			elif menu6 == "1" or menu6 == "01":
 				metasploit()
+
+			elif menu6 == "2" or menu6 == "02":
+				sudo()
 
 			else:
 				erro()
