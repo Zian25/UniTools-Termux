@@ -21,22 +21,7 @@ def restart_program():
     python = sys.executable
     os.execl(python, python, * sys.argv)
     curdir = os.getcwd()
-
-# Opçôes do "retornar"
-def retornar_op():
-	print ("Digite Z para retornar ao menu inicial")
-	print ("Digite X para sair do script")
-
-
-# Retornar à algum menu
-def retornar():
-	print retornar_op
-	retornara = input("Selecione uma opçâo: ")
-	if retornara == "Z" or retornara == "z":
-		restart_program()
-	else:
-		os.system(exit)
-
+    
 # Utilidades para facilitar
 def cc():
 	os.system("clear")
