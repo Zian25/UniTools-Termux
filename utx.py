@@ -396,6 +396,7 @@ def main():
 		restart_program()
 
 	if pedido == "x" or pedido == "X":
+		os.system("clear")
 		os.system("exit")
 
 main()
