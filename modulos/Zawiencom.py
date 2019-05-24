@@ -7,13 +7,13 @@ import time
 #Banner 
 def banner():
 	print ("-" * 59)
-	print ("                      #     # ####### #     # " )
-	print ("                      #     #    #     #   #  " )
-	print ("                      #     #    #      # #   " )
-	print ("                      #     #    #       #    " )
-	print ("                      #     #    #      # #   " )
-	print ("                      #     #    #     #   #  " )
-	print ("                       #####     #    #     #   v1" )
+	print ("                    #     # ####### #     # " )
+	print ("                    #     #    #     #   #  " )
+	print ("                    #     #    #      # #   " )
+	print ("                    #     #    #       #    " )
+	print ("                    #     #    #      # #   " )
+	print ("                    #     #    #     #   #  " )
+	print ("                     #####     #    #     #   v1" )
 	print ("-" * 59)
 
 # Reiniciar Programa
