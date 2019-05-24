@@ -543,6 +543,7 @@ def BlackHydra():
 
 def metasploit():
 	update()
+	os.system("cd ~")
 	os.system("pkg install wget")
 	os.system("wget https://Auxilus.github.io/metasploit.sh")
 	os.system("cd metasploit")
