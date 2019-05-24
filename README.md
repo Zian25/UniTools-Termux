@@ -7,4 +7,4 @@
 # UniTools-Termux
 Instalador hacking para termux
 
-<img src="modulos/utx.jpeg.png">
+<img src="modulos/utx.jpeg">
