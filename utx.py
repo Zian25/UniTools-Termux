@@ -5,6 +5,7 @@ from Zawiencom import *
 
 #Inicio do script (Menu)
 def main():
+	os.system("clear")
 	banner()
 	print ("          [1] Ferramentas de coleta de informaçôes")
 	print ("          [2] Ferramentas de DoS")
