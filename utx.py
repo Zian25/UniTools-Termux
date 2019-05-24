@@ -399,4 +399,11 @@ def main():
 		os.system("clear")
 		os.system("exit")
 
+	else:
+		os.system("clear")
+		print ("OPS! Parece que você inseriu uma opção incorreta :(")
+		time.sleep(3)
+		os.system("clear")
+		restart_program()
+
 main()
