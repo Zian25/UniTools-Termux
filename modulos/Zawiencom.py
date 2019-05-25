@@ -598,6 +598,7 @@ def metasploit():
 	restart_program()
 
 def sudo():
+	os.system("cd ~")
 	os.system("git clone git@gitlab.com:st42/termux-sudo.git")
 	os.system("pkg install ncurses-utils")
 	os.system("cd termux-sudo")
