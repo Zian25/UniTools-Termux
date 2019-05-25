@@ -312,6 +312,34 @@ def MemcrashedDDoSExploit():
 	cc()
 	restart_program()
 
+def PlanetworkDDOS():
+	update()
+	os.system("git clone https://github.com/Hydra7/Planetwork-DDOS.git")
+	os.system("mv Planetwork-DDOS ~")
+	cc()
+	restart_program()
+
+def ping_of_death():
+	update()
+	os.system("git clone https://github.com/ffmancera/ping_of_death.git")
+	os.system("mv ping_of_death ~")
+	cc()
+	restart_program()
+
+def IcmpiFlood():
+	update()
+	os.system("git clone https://github.com/pioneerhfy/IcmpiFlood.git")
+	os.system("mv IcmpiFlood ~")
+	cc()
+	restart_program()
+
+def exploitblacknurse():
+	update()
+	os.system("git clone https://github.com/opsxcq/exploit-blacknurse.git")
+	os.system("mv exploit-blacknurse ~")
+	cc()
+	restart_program()
+
 # Fim do 2 menu de instalação
 
 # Inicio do 3 menu de instalação
@@ -574,3 +602,5 @@ def sudo():
 
 def att():
 	os.system("git pull")
+
+# Fim da opção de atualização

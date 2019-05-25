@@ -144,6 +144,10 @@ def main():
 			print ("          [9] LITEDDOS")
 			print ("          [10] hulk")
 			print ("          [11] Memcrashed-DDoS-Exploit")
+			print ("          [12] Planetwork-DDOS")
+			print ("          [13] Ping_of_death")
+			print ("          [14] IcmpiFlood")
+			print ("          [15] exploit-blacknurse")
 			print ("          [00] Sair do menu de instalação")
 			print ("                ")
 
@@ -185,6 +189,19 @@ def main():
 
 			elif menu2 == "11":
 				MemcrashedDDoSExploit()
+
+			elif menu2 == "12":
+				PlanetworkDDOS()
+
+			elif menu2 == "13":
+				ping_of_death()
+
+			elif menu2 == "14":
+				IcmpiFlood()
+
+			elif menu2 == "15":
+				exploitblacknurse()
+
 
 			else:
 				erro()
@@ -365,7 +382,7 @@ def main():
 
 			menu6 = input("Selecione uma opção: ")
 
-			if menu6 == "0" or menu6 == "06":
+			if menu6 == "0" or menu6 == "00":
 				os.system("clear")
 				restart_program()
 
