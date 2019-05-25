@@ -13,7 +13,7 @@ def main():
 		print ("          [3] Ferramentas de Phishing")
 		print ("          [4] Ferramentas de Exploração (Exploit)(Scanners)")
 		print ("          [5] Ferramentas de Brute-force")
-		print ("          [6] Pacotes e Utilidades & Auto-Instaladores")
+		print ("          [6] Outros (Instaladores & Utilidades)")
 		print ("          [7] Procurar atualização (UniTools-Termux)")
 		print ("          [X] Sair")
 		print ("                 ")
