@@ -353,10 +353,7 @@ def main():
 				BlackHydra()
 
 			else:
-				os.system("clear")
-				print ("OPS! Parece que você inseriu uma opção incorreta :(")
-				time.sleep(4)
-				restart_program()
+				erro()
 			# Fim do 5 menu de instalação
 		# Começo do 6 menu
 		if pedido == "6" or pedido == "06":
