@@ -340,6 +340,13 @@ def exploitblacknurse():
 	cc()
 	restart_program()
 
+def PyFlooder():
+	update()
+	os.system("git clone https://github.com/D4Vinci/PyFlooder.git")
+	os.system("mv PyFlooder ~")
+	cc()
+	restart_program()
+
 # Fim do 2 menu de instalação
 
 # Inicio do 3 menu de instalação
