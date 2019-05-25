@@ -10,6 +10,9 @@ Instalador de ferramentas hacking para termux
 # Aviso
 Ao longo do tempo haverá mais ferramentas
 
+
+Telegram: @NickZi
+
 # Como usar?
 ```
 python utx.py
@@ -17,3 +20,5 @@ python utx.py
 
 # Imagem
 <img src="modulos/utx.jpeg">
+
+
