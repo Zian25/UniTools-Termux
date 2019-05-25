@@ -12,7 +12,7 @@ Ao longo do tempo haverá mais ferramentas
 
 # Como usar?
 ```
-python2 utx.py
+python utx.py
 ```
 
 # Imagem
