@@ -357,6 +357,7 @@ def main():
 			print ("  [8] Black-Hydra")
 			print ("  [9] Hash-Buster")
 			print ("  [10] Facebom")
+			print ("  [11] brutespray")
 			print ("  [00] Para sair para o menu")
 			print ("       ")
 
