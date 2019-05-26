@@ -414,6 +414,19 @@ def TurkSploit():
 	cc()
 	restart_program()
 
+def weeman():
+	update()
+	os.system("git clone https://github.com/evait-security/weeman.git")
+	os.system("mv weeman ~")
+	cc()
+	restart_program()
+
+def dnstwist():
+	update()
+	os.system("git clone https://github.com/elceef/dnstwist.git")
+	os.system("mv dnstwist ~")
+	cc()
+	restart_program()
 # Fim do 3 menu de instalação
 
 # Inicio do 4 menu de instalação
@@ -583,6 +596,27 @@ def BlackHydra():
 	cc()
 	restart_program()
 
+def HashBuster():
+	update()
+	os.system("git clone https://github.com/s0md3v/Hash-Buster.git")
+	os.system("mv Hash-Buster ~")
+	cc()
+	restart_program()
+
+def Facebom():
+	update()
+	os.system("git clone https://github.com/Oseid/Facebom.git")
+	os.system("mv Facebom ~")
+	cc()
+	restart_program()
+
+def brutespray():
+	update()
+	os.system("git clone https://github.com/hanshaze/brutespray.git")
+	os.system("mv brutespray ~")
+	cc()
+	restart_program()
+
 # Fim do 5 menu de instalação
 
 # Inicio do auto instalador
@@ -598,12 +632,27 @@ def metasploit():
 	restart_program()
 
 def sudo():
+	update()
 	os.system("cd ~")
 	os.system("git clone git@gitlab.com:st42/termux-sudo.git")
 	os.system("pkg install ncurses-utils")
 	os.system("cd termux-sudo")
 	os.system("cat sudo > /data/data/com.termux/files/usr/bin/sudo")
 	os.system("chmod 700 /data/data/com.termux/files/usr/bin/sudo")
+	cc()
+	restart_program()
+
+def Nethunter():
+	update()
+	os.system("cd ..")
+	os.system("cd home")
+	os.system("curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter")
+	os.system("chmod +x kalinethunter")
+	os.system("./kalinethunter")
+	cc()
+	print ("Utilize startkali para iniciar")
+	time.sleep(5)
+	restart_program()
 
 
 # Inicio da opção de atualização

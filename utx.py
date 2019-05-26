@@ -19,6 +19,8 @@ def main():
 		print ("                 ")
 		pedido = input("Selecione uma opçâo: ")
 
+		# Gathering Information
+
 		if pedido == "1":
 			os.system("clear")
 			print ("  [1] Nmap")
@@ -130,6 +132,7 @@ def main():
 			# Fim do primeiro menu de instalação
 
 		# Começo do 2 menu de instalação
+		# DDoS
 
 		if pedido == "2" or pedido == "02":
 			os.system("clear")
@@ -215,6 +218,7 @@ def main():
 		# Fim do 2 menu de instalação
 
 		# Começo do 3 menu de instalação
+		# Phishing 
 		if pedido == "3" or pedido == "03":
 			os.system("clear")
 			print ("  [1] SocialFish")
@@ -225,6 +229,8 @@ def main():
 			print ("  [6] HiddenEye")
 			print ("  [7] gophish")
 			print ("  [8] Turk-Sploit")
+			print ("  [9] weeman")
+			print ("  [10] dnstwist")
 			print ("  [00] Sair para o menu")
 			print ("         ")
 			menu3 = input("Selecione uma opção: ")
@@ -256,6 +262,14 @@ def main():
 
 			elif menu3 == "8" or menu3 == "08":
 				TurkSploit()
+
+			elif menu3 == "9" or menu3 == "09":
+				weeman()
+
+			elif menu3 == "10":
+				dnstwist()
+
+
 
 			else:
 				erro()
@@ -341,6 +355,8 @@ def main():
 			print ("  [6] crunch")
 			print ("  [7] hashcat")
 			print ("  [8] Black-Hydra")
+			print ("  [9] Hash-Buster")
+			print ("  [10] Facebom")
 			print ("  [00] Para sair para o menu")
 			print ("       ")
 
@@ -374,6 +390,12 @@ def main():
 			elif menu5 == "8" or menu5 == "08":
 				BlackHydra()
 
+			elif menu5 == "9" or menu5 == "09":
+				HashBuster()
+
+			elif menu5 == "10":
+				Facebom()
+
 			else:
 				erro()
 			# Fim do 5 menu de instalação
@@ -382,6 +404,7 @@ def main():
 			os.system("clear")
 			print ("  [1] Metasploit")
 			print ("  [2] Sudo su")
+			print ("  [3] Nethunter")
 			print ("  [00] Sair para o menu ")
 			print ("       ")
 
@@ -396,6 +419,9 @@ def main():
 
 			elif menu6 == "2" or menu6 == "02":
 				sudo()
+
+			elif menu6 == "3" or menu6 == "03":
+				Nethunter()
 
 			else:
 				erro()
