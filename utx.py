@@ -46,6 +46,7 @@ def main():
 			print ("  [21] wpscan")
 			print ("  [22] theHarvester")
 			print ("  [23] KnockMail")
+			print ("  [24] dmitry")
 			print ("  [00] Para Voltar")
 			print ("          ")
 
@@ -124,6 +125,9 @@ def main():
 
 			elif menu == "23":
 				KnockMail()
+
+			elif menu == "24":
+				dmitry()
 
 			else:
 				erro()
@@ -290,6 +294,7 @@ def main():
 			print ("  [11] Striker")
 			print ("  [12] SH33LL")
 			print ("  [13] Xshell")
+			print ("  [14] sqlninja")
 			print ("  [00] Para sair para o menu")
 			print ("                  ")
 			menu4 = input("Selecione uma opção: ")
@@ -336,6 +341,9 @@ def main():
 
 			elif menu4 == "13":
 				Xshell()
+
+			elif menu4 == "14":
+				sqlninja()
 
 
 			else:
@@ -445,5 +453,6 @@ def main():
 		print ("\nSaindo...")
 		time.sleep(1)
 		os.system("clear")
+
 
 main()

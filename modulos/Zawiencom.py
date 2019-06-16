@@ -225,6 +225,13 @@ def SCANNERINURLBR():
 	os.system("git clone https://github.com/googleinurl/SCANNER-INURLBR.git")
 	os.system("mv SCANNER-INURLBR ~")
 	cc()
+	restart_program() 
+
+def dmitry():
+	update()
+	os.system("git clone https://github.com/jaygreig86/dmitry")
+	os.system("mv dmitry ~")
+	cc()
 	restart_program()
 
 
@@ -529,6 +536,13 @@ def Xshell():
 	update()
 	os.system("git clone https://github.com/Manisso/Xshell.git")
 	os.system("mv Xshell ~")
+	cc()
+	restart_program()
+
+def sqlninja():
+	update()
+	os.system("git clone https://github.com/xxgrunge/sqlninja")
+	os.system("mv sqlninja ~")
 	cc()
 	restart_program()
 
