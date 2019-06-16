@@ -5,7 +5,7 @@
 
 
 # UniTools-Termux
-Instalador de ferramentas hacking para termux contando com 76 Ferramentas
+Instalador de ferramentas hacking para termux contando com 78 Ferramentas
 
 # Aviso
 Ao longo do tempo haverá mais ferramentas
