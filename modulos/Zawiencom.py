@@ -248,6 +248,27 @@ def Hatwitch():
 	cc()
 	restart_program()
 
+def URLextractor():
+	update()
+	os.system("git clone https://github.com/eschultze/URLextractor.git")
+	os.system("mv URLextractor ~")
+	cc()
+	restart_program()
+
+def webkiller():
+	update()
+	os.system("git clone https://github.com/ultrasecurity/webkiller.git")
+	os.system("mv webkiller ~")
+	cc()
+	restart_program()
+
+def creepy():
+	update()
+	os.system("git clone https://github.com/ilektrojohn/creepy.git")
+	os.system("mv creepy ~")
+	cc()
+	restart_program()
+
 
 # Fim do Primeiro menu de instalação
 
@@ -365,6 +386,20 @@ def PyFlooder():
 	update()
 	os.system("git clone https://github.com/D4Vinci/PyFlooder.git")
 	os.system("mv PyFlooder ~")
+	cc()
+	restart_program()
+
+def Saddam():
+	update()
+	os.system("git clone https://github.com/OffensivePython/Saddam.git")
+	os.system("mv Saddam ~")
+	cc()
+	restart_program()
+
+def ntpdos():
+	update()
+	os.system("git clone https://github.com/vpnguy-zz/ntpdos.git")
+	os.system("mv ntpdos ~")
 	cc()
 	restart_program()
 

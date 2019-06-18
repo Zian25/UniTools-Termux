@@ -49,6 +49,9 @@ def main():
 			print ("  [24] dmitry")
 			print ("  [25] ShodanHat")
 			print ("  [26] Hatwitch")
+			print ("  [27] URLextractor")
+			print ("  [28] webkiller")
+			print ("  [29] creepy")
 			print ("  [00] Para Voltar")
 			print ("          ")
 
@@ -137,6 +140,15 @@ def main():
 			elif menu == "26":
 				Hatwitch()
 
+			elif menu == "27":
+				URLextractor()
+
+			elif menu == "28":
+				webkiller()
+
+			elif menu == "29":
+				creepy()
+
 			else:
 				erro()
 
@@ -164,6 +176,8 @@ def main():
 			print ("  [14] IcmpiFlood")
 			print ("  [15] exploit-blacknurse")
 			print ("  [16] PyFlooder")
+			print ("  [17] Saddam")
+			print ("  [18] ntpdos")
 			print ("  [00] Sair do menu de instalação")
 			print ("                ")
 
@@ -220,6 +234,12 @@ def main():
 
 			elif menu2 == "16":
 				PyFlooder()
+
+			elif menu2 == "17":
+				Saddam()
+
+			elif menu2 == "18":
+				ntpdos()
 
 
 
