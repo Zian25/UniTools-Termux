@@ -47,6 +47,8 @@ def main():
 			print ("  [22] theHarvester")
 			print ("  [23] KnockMail")
 			print ("  [24] dmitry")
+			print ("  [25] ShodanHat")
+			print ("  [26] Hatwitch")
 			print ("  [00] Para Voltar")
 			print ("          ")
 
@@ -128,6 +130,12 @@ def main():
 
 			elif menu == "24":
 				dmitry()
+
+			elif menu == "25":
+				ShodanHat()
+
+			elif menu == "26":
+				Hatwitch()
 
 			else:
 				erro()

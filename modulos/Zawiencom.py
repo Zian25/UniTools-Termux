@@ -234,6 +234,20 @@ def dmitry():
 	cc()
 	restart_program()
 
+def ShodanHat():
+	update()
+	os.system("git clone https://github.com/HatBashBR/ShodanHat.git")
+	os.system("mv ShodanHat ~")
+	cc()
+	restart_program()
+
+def Hatwitch():
+	update()
+	os.system("git clone https://github.com/HatBashBR/Hatwitch.git")
+	os.system("mv Hatwitch ~")
+	cc()
+	restart_program()
+
 
 # Fim do Primeiro menu de instalação
 
