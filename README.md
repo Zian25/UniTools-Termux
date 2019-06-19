@@ -11,6 +11,8 @@ Como usar?
 
 
 ```
+git clone https://github.com/Zian25/UniTools-Termux
+cd UniTools-Termux
 python utx.py
 ```
 
