@@ -7,6 +7,11 @@
 # UniTools-Termux
 Instalador de ferramentas hacking para termux contando com 118‬ Ferramentas
 
+
+```
+python utx.py
+```
+
 # Aviso
 Ao longo do tempo haverá mais ferramentas
 
