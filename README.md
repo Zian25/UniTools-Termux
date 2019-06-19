@@ -5,7 +5,17 @@
 
 
 # UniTools-Termux
-Instalador de ferramentas hacking para termux contando com 78 Ferramentas
+Instalador de ferramentas hacking para termux contando com 118‬ Ferramentas
+
+Como usar?
+
+
+```
+apt-get install python3
+git clone https://github.com/Zian25/UniTools-Termux
+cd UniTools-Termux
+python3 utx.py
+```
 
 # Aviso
 Ao longo do tempo haverá mais ferramentas
@@ -13,10 +23,7 @@ Ao longo do tempo haverá mais ferramentas
 
 Telegram: @NickZi
 
-# Como usar?
-```
-python utx.py
-```
+
 
 # Imagem
 <img src="modulos/utx.jpeg">
