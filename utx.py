@@ -263,6 +263,7 @@ def main():
 			print ("  [8] Turk-Sploit")
 			print ("  [9] weeman")
 			print ("  [10] dnstwist")
+			print ("  [11] Phlexish")
 			print ("  [00] Sair para o menu")
 			print ("         ")
 			menu3 = input("Selecione uma opção: ")
@@ -300,6 +301,9 @@ def main():
 
 			elif menu3 == "10":
 				dnstwist()
+
+			elif menu3 == "11":
+				Phlexish()
 
 
 

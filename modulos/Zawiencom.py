@@ -483,6 +483,13 @@ def dnstwist():
 	os.system("mv dnstwist ~")
 	cc()
 	restart_program()
+
+def Phlexish():
+	update()
+	os.system("git clone https://github.com/KnightSec-Official/Phlexish.git")
+	os.system("mv Phlexish ~")
+	cc()
+	restart_program()
 # Fim do 3 menu de instalação
 
 # Inicio do 4 menu de instalação
