@@ -14,7 +14,7 @@ Como usar?
 apt-get install python3
 git clone https://github.com/Zian25/UniTools-Termux
 cd UniTools-Termux
-python utx.py
+python3 utx.py
 ```
 
 # Aviso
