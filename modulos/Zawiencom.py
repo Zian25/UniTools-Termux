@@ -73,8 +73,8 @@ def PhoneInfoga():
 
 def FBI():
 	update()
-	os.system("")
-	os.system("")
+	os.system("git clone https://github.com/KnightSec-Official/FBI.git")
+	os.system("mv FBI ~")
 	cc()
 	restart_program()
 
