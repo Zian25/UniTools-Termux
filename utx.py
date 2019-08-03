@@ -19,6 +19,10 @@ def main():
 		print ("                 ")
 		pedido = input("Selecione uma opçâo: ")
 
+		if pedido == "8":
+			os.system("gem install lolcat")
+			os.system("python3 utx.py | lolcat")
+
 		# Gathering Information
 
 		if pedido == "1":
