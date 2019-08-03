@@ -714,8 +714,7 @@ def sudo():
 
 def Nethunter():
 	update()
-	os.system("cd ..")
-	os.system("cd home")
+	os.system("cd ~")
 	os.system("curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter")
 	os.system("chmod +x kalinethunter")
 	os.system("./kalinethunter")
@@ -723,6 +722,19 @@ def Nethunter():
 	print ("Utilize startkali para iniciar")
 	time.sleep(5)
 	restart_program()
+
+def routersploit():
+	update()
+	os.system("pkg install python")
+	os.system("pkg install python2")
+	os.system("apt-get install git")
+	os.system("git clone https://github.com/threat9/routersploit")
+	os.system("cd routersploit")
+	os.system("pip install requests")
+	os.system("pip install -r requirements.txt")
+	os.system("pip install -r requirements-dev.txt")
+	cc()
+	print ("Utilize python rsf.py no diretorio do routersploit")
 
 
 # Inicio da opção de atualização

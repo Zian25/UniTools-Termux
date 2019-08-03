@@ -446,6 +446,7 @@ def main():
 			print ("  [1] Metasploit")
 			print ("  [2] Sudo su")
 			print ("  [3] Nethunter")
+			print ("  [4] Routersploit")
 			print ("  [00] Sair para o menu ")
 			print ("       ")
 
@@ -463,6 +464,9 @@ def main():
 
 			elif menu6 == "3" or menu6 == "03":
 				Nethunter()
+
+			elif menu6 == "4" or menu6 == "04":
+				routersploit()
 
 			else:
 				erro()
