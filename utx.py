@@ -8,6 +8,7 @@ def main():
 	try:
 		os.system("clear")
 		banner()
+		print ("\n")
 		print ("  [1] Ferramentas de coleta de informaçôes")
 		print ("  [2] Ferramentas de DoS")
 		print ("  [3] Ferramentas de Phishing")
@@ -490,7 +491,7 @@ def main():
 
 	except KeyboardInterrupt:
 		os.system("clear")
-		print ("\nSaindo...")
+		print ("Saindo...")
 		time.sleep(1)
 		os.system("clear")
 

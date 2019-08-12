@@ -6,7 +6,6 @@ import time
 
 #Banner 
 def banner():
-	print ("-" * 59)
 	print ("                    #     # ####### #     # " )
 	print ("                    #     #    #     #   #  " )
 	print ("                    #     #    #      # #   " )
@@ -14,7 +13,6 @@ def banner():
 	print ("                    #     #    #      # #   " )
 	print ("                    #     #    #     #   #  " )
 	print ("                     #####     #    #     #   v1" )
-	print ("-" * 59)
 
 # Reiniciar Programa
 def restart_program():
