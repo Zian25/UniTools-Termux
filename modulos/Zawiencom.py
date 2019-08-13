@@ -724,8 +724,10 @@ def Nethunter():
 def routersploit():
 	update()
 	os.system("pkg install python")
-	os.system("pkg install python2")
+	os.system("pkg install python3")
 	os.system("apt-get install git")
+	os.system("cd ~")
+	os.system("pip install future")
 	os.system("git clone https://github.com/threat9/routersploit")
 	os.system("cd routersploit")
 	os.system("pip install requests")
