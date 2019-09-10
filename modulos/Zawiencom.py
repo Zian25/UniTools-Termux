@@ -3,6 +3,7 @@
 import os
 import sys
 import time
+import re
 
 #Banner 
 def banner():
@@ -34,6 +35,10 @@ def cc():
 	time.sleep(3)
 def update():
 	os.system("apt-get update && apt-get upgrade && apt-get dist-upgrade -y")
+
+def root():
+	print ("Root é necessario")
+	print ("Deseja continuar? (S)im (N)ão")
 
 # Fim das Utilidades
 
@@ -128,6 +133,10 @@ def IPTracer():
 	update()
 	os.system("git clone https://github.com/Rajkumrdusad/IP-Tracer.git")
 	os.system("mv IP-Tracer ~")
+	os.system("cd ~")
+	os.system("cd IP-Tracer")
+	os.system("chmod +x install")
+	os.system("sh install")
 	cc()
 	restart_program()
 
@@ -437,20 +446,21 @@ def shellphish():
 	restart_program()
 
 
-def Umbrella():
-	update()
-	os.system("git clone https://github.com/4w4k3/Umbrella.git")
-	os.system("mv Umbrella ~")
-	cc()
-	restart_program()
-
-
 def HiddenEye():
 	update()
-	os.system("git clone https://github.com/DarkSecDevelopers/HiddenEye.git")
-	os.system("mv HiddenEye ~")
-	cc()
-	restart_program()
+	root()
+	dec = input("Selecione uma opção: ")
+	if dec == "S" or dec == "s":
+		sudo()
+		os.system("pkg install wget")
+		os.system("pkg install php")
+		os.system("git clone https://github.com/DarkSecDevelopers/HiddenEye.git")
+		os.system("mv HiddenEye ~")
+		cc()
+		restart_program()
+	
+	else:
+		restart_program()
 
 
 def gophish():
@@ -613,14 +623,6 @@ def FacebookBruteForce():
 	restart_program()
 
 
-def UniBruteForce():
-	update()
-	os.system("git clone https://github.com/Unizaf/UniBrute-Force.git")
-	os.system("mv UniBrute-Force ~")
-	cc()
-	restart_program()
-
-
 def Hydra():
 	update()
 	os.system("pkg install hydra")
@@ -645,8 +647,8 @@ def Instahack():
 
 def crunch():
 	update()
-	os.system("git clone https://github.com/crunchsec/crunch.git")
-	os.system("mv crunch ~")
+	os.system("pkg install unstable-repo")
+	os.system("pkg install crunch")
 	cc()
 	restart_program()
 
@@ -675,6 +677,8 @@ def Facebom():
 	update()
 	os.system("git clone https://github.com/Oseid/Facebom.git")
 	os.system("mv Facebom ~")
+	os.system("pip install requests")
+	os.system("pip install mechanize")
 	cc()
 	restart_program()
 
@@ -682,6 +686,8 @@ def brutespray():
 	update()
 	os.system("git clone https://github.com/hanshaze/brutespray.git")
 	os.system("mv brutespray ~")
+	os.system("cd ~/brutespray")
+	os.system("pip install -r requirements.txt")
 	cc()
 	restart_program()
 
@@ -693,6 +699,7 @@ def metasploit():
 	os.system("cd ~")
 	os.system("pkg install wget")
 	os.system("wget https://Auxilus.github.io/metasploit.sh")
+	os.system("mv metasploit ~")
 	os.system("cd metasploit")
 	os.system("bash metasploit.sh")
 	os.system("./msfconsole")
@@ -726,10 +733,10 @@ def routersploit():
 	os.system("pkg install python")
 	os.system("pkg install python3")
 	os.system("apt-get install git")
-	os.system("cd ~")
 	os.system("pip install future")
 	os.system("git clone https://github.com/threat9/routersploit")
-	os.system("cd routersploit")
+	os.system("mv routersploit ~")
+	os.system("cd ~/routersploit")
 	os.system("pip install requests")
 	os.system("pip install -r requirements.txt")
 	os.system("pip install -r requirements-dev.txt")
@@ -741,5 +748,7 @@ def routersploit():
 
 def att():
 	os.system("git pull")
+
+
 
 # Fim da opção de atualização

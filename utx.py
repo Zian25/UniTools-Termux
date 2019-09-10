@@ -195,10 +195,10 @@ def main():
 			elif menu2 == "1" or menu2 == "01":
 				xerxes()
 
-			elif menu2 == "2" or menu == "02":
+			elif menu2 == "2" or menu2 == "02":
 				slowloris()
 
-			elif menu2 == "3" or menu == "03":
+			elif menu2 == "3" or menu2 == "03":
 				hammer()
 
 			elif menu2 == "4" or menu2 == "04":
@@ -262,13 +262,12 @@ def main():
 			print ("  [2] SocialPhish")
 			print ("  [3] Phisher-man")
 			print ("  [4] shellphish")
-			print ("  [5] Umbrella")
-			print ("  [6] HiddenEye")
-			print ("  [7] gophish")
-			print ("  [8] Turk-Sploit")
-			print ("  [9] weeman")
-			print ("  [10] dnstwist")
-			print ("  [11] Phlexish")
+			print ("  [5] HiddenEye")
+			print ("  [6] gophish")
+			print ("  [7] Turk-Sploit")
+			print ("  [8] weeman")
+			print ("  [9] dnstwist")
+			print ("  [10] Phlexish")
 			print ("  [00] Sair para o menu")
 			print ("         ")
 			menu3 = input("Selecione uma opção: ")
@@ -393,16 +392,15 @@ def main():
 		if pedido == "5" or pedido == "05":
 			os.system("clear")
 			print ("  [1] Facebook-BruteForce")
-			print ("  [2] UniBrute-Force")
-			print ("  [3] Hydra ")
-			print ("  [4] facebook-cracker")
-			print ("  [5] Instahack")
-			print ("  [6] crunch")
-			print ("  [7] hashcat")
-			print ("  [8] Black-Hydra")
-			print ("  [9] Hash-Buster")
-			print ("  [10] Facebom")
-			print ("  [11] brutespray")
+			print ("  [2] Hydra ")
+			print ("  [3] facebook-cracker")
+			print ("  [4] Instahack")
+			print ("  [5] crunch")
+			print ("  [6] hashcat")
+			print ("  [7] Black-Hydra")
+			print ("  [8] Hash-Buster")
+			print ("  [9] Facebom")
+			print ("  [10] brutespray")
 			print ("  [00] Para sair para o menu")
 			print ("       ")
 
@@ -496,4 +494,5 @@ def main():
 		os.system("clear")
 
 
-main()
+if __name__ == "__main__":
+	main()
