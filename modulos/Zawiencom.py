@@ -3,7 +3,7 @@
 import os
 import sys
 import time
-import re
+
 
 #Banner 
 def banner():
