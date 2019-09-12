@@ -702,7 +702,6 @@ def metasploit():
 	os.system("mv metasploit ~")
 	os.system("cd metasploit")
 	os.system("bash metasploit.sh")
-	os.system("./msfconsole")
 	cc()
 	restart_program()
 

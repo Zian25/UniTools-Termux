@@ -2,6 +2,8 @@
 import sys
 sys.path.append("modulos")
 from Zawiencom import *
+# from Zawie import *
+
 
 #Inicio do script (Menu)
 def main():
