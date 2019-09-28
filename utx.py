@@ -451,7 +451,7 @@ def main():
 			print ("  [1] Metasploit")
 			print ("  [2] Sudo su")
 			print ("  [3] Nethunter")
-			print ("  [4] Routersploit")
+			print (vermelho + "  [4] Routersploit" + branco)
 			print ("  [00] Sair para o menu ")
 			print ("       ")
 
