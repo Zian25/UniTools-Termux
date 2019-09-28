@@ -440,27 +440,25 @@ def Phisherman():
 
 def shellphish():
 	update()
+	os.system("pkg install python2")
+	os.system("pkg install php")
+	os.system("pkg install curl")
 	os.system("git clone https://github.com/thelinuxchoice/shellphish.git")
 	os.system("mv shellphish ~")
+	os.system("cd shellphish")
+	os.system("chmod +x shellphish.sh")
 	cc()
 	restart_program()
 
 
 def HiddenEye():
 	update()
-	root()
-	dec = input("Selecione uma opção: ")
-	if dec == "S" or dec == "s":
-		sudo()
-		os.system("pkg install wget")
-		os.system("pkg install php")
-		os.system("git clone https://github.com/DarkSecDevelopers/HiddenEye.git")
-		os.system("mv HiddenEye ~")
-		cc()
-		restart_program()
-	
-	else:
-		restart_program()
+	os.system("pkg install wget")
+	os.system("pkg install php")
+	os.system("git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/HiddenEye.git")
+	os.system("mv HiddenEye ~")
+	cc()
+	restart_program()
 
 
 def gophish():
