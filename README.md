@@ -21,8 +21,6 @@ python3 utx.py
 # Aviso
 Ao longo do tempo haverá mais ferramentas 
 
-Trabalhando em novos idiomas
-
 
 Telegram: @NickZi
 
