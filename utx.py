@@ -59,6 +59,7 @@ def main():
 			print ("  [27] URLextractor")
 			print ("  [28] webkiller")
 			print ("  [29] creepy")
+			print ("  [30] Seeker")
 			print ("  [00] Para Voltar")
 			print ("          ")
 
@@ -155,6 +156,9 @@ def main():
 
 			elif menu == "29":
 				creepy()
+
+			elif menu == "30":
+				seeker()
 
 			else:
 				erro()

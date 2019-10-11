@@ -278,6 +278,16 @@ def creepy():
 	cc()
 	restart_program()
 
+def seeker():
+	update()
+	os.system("git clone https://github.com/thewhiteh4t/seeker.git")
+	os.system("mv seeker ~")
+	os.system("cd seeker")
+	os.system("chmod 777 termux_install.sh")
+	os.system("./termux_install.sh")
+	cc()
+	restart_program()
+
 
 # Fim do Primeiro menu de instalação
 
