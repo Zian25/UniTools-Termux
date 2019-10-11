@@ -19,7 +19,7 @@ python3 utx.py
 ```
 
 # Aviso
-Ao longo do tempo haverá mais ferramentas
+Ao longo do tempo haverá mais ferramentas e funções
 
 
 Telegram: @NickZi
