@@ -738,43 +738,18 @@ def Nethunter():
 	restart_program()
 
 def routersploit():
-	update()
-	os.system("clear")
-	time.sleep(5)
-	print ("Essa ferramenta pode não funcionar corretamente no Termux no momento!")
-	dec = input("Deseja continuar?" + verde +"(S)im " + vermelho + "(N)ão: " + branco)
-	if dec == "S" or dec == "s":
-
-		os.system("clear")
-		os.system("pkg install python")
-		os.system("pkg install python3")
-		os.system("pkg install wget")
-		os.system("pkg upgrade && pkg install autoconf automake bison bzip2 clang cmake \ coreutils diffutils flex gawk git grep gzip libtool make patch perl  \ sed silversearcher-ag tar wget pkg-config")
-		os.system("pkg install perl")
-		os.system("pkg install python-dev clang libcrypt-dev libffi-dev git openssl-dev && export CONFIG_SHELL=$PREFIX/bin/sh")
-		os.system("apt-get install git")
-		os.system("pip install cryptography")
-		os.system("pip install future")
-		os.system("git clone https://github.com/threat9/routersploit")
-		os.system("mv routersploit ~")
-		os.system("cd ~/routersploit")
-		os.system("pip install requests")
-		os.system("pip install -r requirements.txt")
-		os.system("pip install -r requirements-dev.txt")
-		os.system("termux-fix-shebang rsf.py")
-		cc()
-		print ("Utilize python rsf.py no diretorio do routersploit")
-
-	elif dec == "N" or dec == "n":
-		restart_program()
-
-	else:
-		os.system("clear")
-		print ("OPS! você não inseriu uma opção correta!")
+    update()
+    os.system("cd ~")
+    os.system("apt update")
+    os.system("apt upgrade")
+    os.system("pkg install unstable-repo")
+    os.system("pkg install metasploit")
+    cc()
+    restart_program()
+    pass
 
 
 # Inicio da opção de atualização
-
 def att():
 	os.system("git pull")
 
