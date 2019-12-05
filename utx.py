@@ -17,14 +17,13 @@ def main():
 		print ("  [4] Ferramentas de Exploração (Exploit)(Scanners)")
 		print ("  [5] Ferramentas de Brute-force")
 		print ("  [6] Outros (Instaladores & Utilidades)")
-		print ("  [7] Procurar atualização (UniTools-Termux)")
+		print ( vermelho + "  [7] Pacotes" + branco)
+		print ("  [8] Procurar atualização (UniTools-Termux)")
 		print ("  [X] Sair")
 		print ("                 ")
 		pedido = input("Selecione uma opçâo: ")
 
-		if pedido == "8":
-			os.system("gem install lolcat")
-			os.system("python3 utx.py | lolcat")
+
 
 		# Gathering Information
 
@@ -337,6 +336,7 @@ def main():
 			print ("  [12] SH33LL")
 			print ("  [13] Xshell")
 			print ("  [14] sqlninja")
+			print ("  [15] DirAttack")
 			print ("  [00] Para sair para o menu")
 			print ("                  ")
 			menu4 = input("Selecione uma opção: ")
@@ -386,6 +386,9 @@ def main():
 
 			elif menu4 == "14":
 				sqlninja()
+
+			elif menu4 == "15":
+				DirAttack()
 
 
 			else:
@@ -456,6 +459,7 @@ def main():
 			print ("  [2] Sudo su")
 			print ("  [3] Nethunter")
 			print (vermelho + "  [4] Routersploit" + branco)
+			print ("  [5] Nginx")
 			print ("  [00] Sair para o menu ")
 			print ("       ")
 
@@ -480,7 +484,15 @@ def main():
 			else:
 				erro()
 
+
 		if pedido == "7" or pedido == "07":
+			os.system("clear")
+			print ("Python & Pip")
+			restart_program()
+
+
+
+		if pedido == "8" or pedido == "08":
 			os.system("clear")
 			print ("Verificando...")
 			att()

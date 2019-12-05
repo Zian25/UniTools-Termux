@@ -42,6 +42,8 @@ def root():
 	print ("Root é necessario")
 	print ("Deseja continuar? (S)im (N)ão")
 
+
+
 # Fim das Utilidades
 
 # Inicio dos 1 instaladores
@@ -620,6 +622,18 @@ def sqlninja():
 	cc()
 	restart_program()
 
+def DirAttack():
+	update()
+	os.system("pkg install git python -y")
+	os.system("git clone https://github.com/Ranginang67/DirAttack")
+	os.system("mv DirAttack ~")
+	os.system("cd ~")
+	os.system("cd DirAttack")
+	os.system("chmod +x install.py")
+	os.system("python3 install.py")
+	cc()
+	restart_program()
+
 # Fim do 4 menu de instalação
 
 # Inicio do 5 menu de instalação
@@ -748,6 +762,37 @@ def routersploit():
     restart_program()
     pass
 
+def nginx():
+	update()
+	os.system("pkg install nginx")
+	cc()
+	print ("Digite nginx no terminal para iniciar")
+	time.sleep(5)
+	restart_program()
+
+
+def ngrok():
+	update()
+	print ("Aceite a requisição de armazenamento")
+	os.system("termux-setup-storage")
+	os.system("apt install curl")
+	os.system("pkg install git")
+	os.system("git clone https://github.com/PSecurity/ps.ngrok")
+	os.system("cd ps.ngrok")
+	os.system("mv ngrok /data/data/com.termux/files/home")
+	os.system("chmod +x ngrok")
+	chave = input("Digite sua chave de autenticação")
+	os.system("./ngrok authtoken {chave}")
+	cc()
+	restart_program()
+		
+
+
+# fim dos autoinstaladores
+
+# inicio do pacote
+def menu_pacote_1():
+	os.system("clear")
 
 # Inicio da opção de atualização
 def att():
