@@ -778,6 +778,8 @@ def ngrok():
 	os.system("apt install curl")
 	os.system("pkg install git")
 	os.system("git clone https://github.com/PSecurity/ps.ngrok")
+	os.system("mv ps.ngrok ~")
+	os.system("cd ~")
 	os.system("cd ps.ngrok")
 	os.system("mv ngrok /data/data/com.termux/files/home")
 	os.system("chmod +x ngrok")
