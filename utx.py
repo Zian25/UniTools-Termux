@@ -460,6 +460,7 @@ def main():
 			print ("  [3] Nethunter")
 			print (vermelho + "  [4] Routersploit" + branco)
 			print ("  [5] Nginx")
+			print ("  [6] Ngrok")
 			print ("  [00] Sair para o menu ")
 			print ("       ")
 
