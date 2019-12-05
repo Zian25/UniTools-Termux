@@ -481,6 +481,12 @@ def main():
 			elif menu6 == "4" or menu6 == "04":
 				routersploit()
 
+			elif menu6 == "5" or menu6 == "05":
+				nginx()
+
+			elif menu6 == "6" or menu6 == "06":
+				ngrok()
+
 			else:
 				erro()
 
