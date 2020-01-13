@@ -1,6 +1,7 @@
 [![Version](https://img.shields.io/badge/UniTools--Termux-V%201.1-red.svg)]()
 [![Python 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)]()
 [![Build](https://img.shields.io/badge/Compativel-Termux-brightgreen.svg)]()
+[![Traduzido](https://img.shields.io/badge/Translated%20to%3A-3%20Languages-blue.svg)]()
 
 
 
