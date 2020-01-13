@@ -112,6 +112,9 @@ def main():
 			elif pedido == "9" or pedido == "09":
 				pedido_9_pt()
 
+			else:
+				erro()
+
 
 		elif en == True:
 			os.system("clear")
@@ -153,6 +156,9 @@ def main():
 
 			elif pedido == "9" or pedido == "09":
 				pedido_9_en()
+
+			else:
+				erro_en()
 
 
 
@@ -202,6 +208,10 @@ def main():
 				print ("\nSaliendo...")
 				time.sleep(5)
 				sys.exit()
+
+
+			else:
+				erro_es()
 
 
 
