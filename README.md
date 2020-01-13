@@ -1,11 +1,18 @@
-[![Version](https://img.shields.io/badge/UniTools--Termux-V%201.0-red.svg)]()
+[![Version](https://img.shields.io/badge/UniTools--Termux-V%201.1-red.svg)]()
 [![Python 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)]()
 [![Build](https://img.shields.io/badge/Compativel-Termux-brightgreen.svg)]()
+[![Traduzido](https://img.shields.io/badge/Translated%20to%3A-3%20Languages-blue.svg)]()
 
 
 
 # UniTools-Termux
 Instalador de ferramentas hacking para termux contando com +118‬ Ferramentas
+
+
+Now translated to English!
+
+
+Ahora traducido al español!
 
 Como usar?
 
