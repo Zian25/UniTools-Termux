@@ -1,4 +1,5 @@
 import sys
+import random
 from Zawiencom import *
 from menu1 import *
 from menu2 import *
@@ -468,3 +469,4 @@ def pedido_9_es():
 	att()
 	restart_program()
 
+dicas_es_init = ["[Consejos] Nuevas actualizaciones están llegando", "[Consejos] Los errores encontrados en el programa pueden ser reportados en github!", "[Consejos] Sígueme en el github: Zian25"]

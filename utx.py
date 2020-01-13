@@ -22,12 +22,15 @@ if not analisa:
 	lingua_seleciona = input("Selecione uma linguagem: ")
 	if lingua_seleciona == "en":
 		idioma.write("en")
+		pass
 
 	elif lingua_seleciona == "es":
 		idioma.write("es")
+		pass
 
 	elif lingua_seleciona == "pt":
 		idioma.write("pt")
+		pass
 
 	else:
 		os.system("clear")
@@ -82,6 +85,8 @@ def main():
 			print ("  [8] Configurações")
 			print ("  [9] Procurar atualização (UniTools-Termux)")
 			print ("  [X] Sair\n")
+			print (random.choice(dicas_pt_init))
+			print("\n")
 			pedido = input("Selecione uma opçâo: ")
 			os.system("clear")
 
@@ -130,6 +135,8 @@ def main():
 			print("  [8] Settings")
 			print("  [9] Search update (UniTools-Termux)")
 			print("  [X] Exit\n")
+			print (random.choice(dicas_en_init))
+			print("\n")
 			pedido = input("Select an option: ")
 			if pedido == "1" or pedido == "01":
 				pedido_1_en()
@@ -177,6 +184,8 @@ def main():
 			print("  [8] Configuración")
 			print("  [9] Buscar actualización (UniTools-Termux)")
 			print("  [X] Salir\n")
+			print (random.choice(dicas_es_init))
+			print ("\n")
 			pedido = input("Seleccione una opción: ")
 			if pedido == "1" or pedido == "01":
 				pedido_1_es()

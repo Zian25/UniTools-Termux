@@ -1,4 +1,5 @@
 import sys
+import random
 from Zawiencom import *
 from menu1 import *
 from menu2 import *
@@ -469,3 +470,4 @@ def pedido_9_pt():
 	restart_program()
 
 
+dicas_pt_init = ["[Dicas] Novas atualizações estão chegando!", "[Dicas] Os erros encontrados no programa podem ser reportados no github!", "[Dica] Siga-me no Github: Zian25"]

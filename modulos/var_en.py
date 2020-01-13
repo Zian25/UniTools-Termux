@@ -1,4 +1,5 @@
 import sys
+import random
 from Zawiencom import *
 from menu1 import *
 from menu2 import *
@@ -39,8 +40,7 @@ def pedido_1_en():
 			print ("  [28] webkiller")
 			print ("  [29] creepy")
 			print ("  [30] Seeker")
-			print ("  [00] Exit to the menu")
-			print ("          ")
+			print ("  [00] Exit to the menu\n")
 
 			#Pergunta da primeira opção de ferramentas
 			menu = input("Select an option: ")
@@ -467,3 +467,7 @@ def pedido_9_en():
 	print ("Searching...")
 	att()
 	restart_program()
+
+
+
+dicas_en_init = ["[Hints] New features coming soon!",  "[Hints] Errors found in the program can be reported in github!", "[Hints] Follow me on Github: Zian25" ]
