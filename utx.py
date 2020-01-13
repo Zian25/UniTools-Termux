@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys
+import random
 sys.path.append("modulos")
 from Zawiencom import *
 from menu1 import *
