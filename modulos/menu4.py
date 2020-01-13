@@ -3,7 +3,7 @@
 import os
 import sys
 import time
-from Zawiencon import *
+from Zawiencom import *
 
 def XAttacker():
 	update()
