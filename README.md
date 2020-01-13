@@ -9,11 +9,6 @@
 Instalador de ferramentas hacking para termux contando com +118‬ Ferramentas
 
 
-Now translated to English!
-
-
-Ahora traducido al español!
-
 Como usar?
 
 
@@ -27,6 +22,12 @@ python3 utx.py
 
 # Aviso
 Ao longo do tempo haverá mais ferramentas e funções
+
+
+Now translated to English!
+
+
+Ahora traducido al español!
 
 
 Telegram: @NickZi
