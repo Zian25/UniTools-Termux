@@ -2,6 +2,7 @@
 import os
 import sys
 import time
+from Zawiencon import *
 
 def SocialFish():
 	update()
