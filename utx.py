@@ -128,7 +128,7 @@ def main():
 			print(vermelho + "  [7] Packages" + branco)
 			print("  [8] Settings")
 			print("  [9] Search update (UniTools-Termux)")
-			print("  [X] Exit")
+			print("  [X] Exit\n")
 			pedido = input("Select an option: ")
 			if pedido == "1" or pedido == "01":
 				pedido_1_en()
@@ -174,7 +174,7 @@ def main():
 			print(vermelho + "  [7] Paquetes" + branco)
 			print("  [8] Configuración")
 			print("  [9] Buscar actualización (UniTools-Termux)")
-			print("  [X] Salir")
+			print("  [X] Salir\n")
 			pedido = input("Select an option: ")
 			if pedido == "1" or pedido == "01":
 				pedido_1_es()
