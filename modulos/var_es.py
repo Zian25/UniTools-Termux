@@ -39,8 +39,10 @@ def pedido_1_es():
 			print ("  [28] webkiller")
 			print ("  [29] creepy")
 			print ("  [30] Seeker")
-			print ("  [00] Salir al menú")
-			print ("          ")
+			print ("  [31] Twifo-cli")
+			print ("  [00] Salir al menú\n")
+			print (random.choice(dicas_menu1_es))
+			print ("\n")
 
 			#Pergunta da primeira opção de ferramentas
 			menu = input("Selecione uma opção: ")
@@ -138,6 +140,9 @@ def pedido_1_es():
 
 			elif menu == "30":
 				seeker()
+
+			elif menu == "31":
+				twifo_cli()
 
 			else:
 				erro_es()
@@ -471,3 +476,5 @@ def pedido_9_es():
 
 dicas_es_init = ["[Consejos] Nuevas actualizaciones están llegando", "[Consejos] Los errores encontrados en el programa pueden ser reportados en github!", "[Consejos] Sígueme en el github: Zian25"
 				, "[Consejos] No te olvides de comprobar las actualizaciones!", "[Consejos] Las opciones en rojo significan que no está funcionando ahora mismo!"]
+
+dicas_menu1_es = ["[Consejos] La recopilación de información es esencial para el éxito de un ataque!", "[Consejos] Nmap es un buen comienzo!", "[Consejos] Camufló su IP?"]

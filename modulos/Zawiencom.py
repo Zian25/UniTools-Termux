@@ -57,7 +57,30 @@ def root():
 	print ("Root é necessario")
 	print ("Deseja continuar?" + verde + "(S)im" + vermelho +"(N)ão" + branco)
 	pedido_root = input("Selecione uma opção: ")
+	if pedido_root == "S" or pedido_root == "s" or pedido_root == "Sim" or pedido_root == "sim":
+		pass
+	else:
+		restart_program()
 
+def root_en():
+	print ("Root is required")
+	print ("Do you wish to continue?" + verde + "(Y)es" + vermelho +"(N)o" + branco)
+	pedido_root = input("Selecione uma opção: ")
+	if pedido_root == "Y" or pedido_root == "y" or pedido_root == "Yes" or pedido_root == "yes":
+		pass
+	else:
+		restart_program()
+
+
+
+def root_es():
+	print ("La raíz es necesaria (Root)")
+	print ("¿Desea continuar?" + verde + "(S)í" + vermelho +"(N)o" + branco)
+	pedido_root = input("Selecione uma opção: ")
+	if pedido_root == "S" or pedido_root == "s" or pedido_root == "Si" or pedido_root == "si" or pedido_root == "sí" or pedido_root == "Sí":
+		pass
+	else:
+		restart_program()
 
 
 # Path

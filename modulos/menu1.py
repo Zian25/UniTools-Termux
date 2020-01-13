@@ -278,3 +278,15 @@ def seeker():
 	os.system("./termux_install.sh")
 	cc()
 	restart_program()
+
+
+
+def twifo_cli():
+	update()
+	os.system("git clone https://github.com/CodeDotJS/twifo-cli.git")
+	os.system("mv twifo-cli ~")
+	os.system("cd ~/twifo-cli")
+	os.system("pkg install nodejs")
+	os.system("npm install --global twifo-cli")
+	cc()
+	restart_program()
