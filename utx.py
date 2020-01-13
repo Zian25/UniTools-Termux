@@ -177,7 +177,7 @@ def main():
 			print("  [8] Configuración")
 			print("  [9] Buscar actualización (UniTools-Termux)")
 			print("  [X] Salir\n")
-			pedido = input("Select an option: ")
+			pedido = input("Seleccione una opción: ")
 			if pedido == "1" or pedido == "01":
 				pedido_1_es()
 
