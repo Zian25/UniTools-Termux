@@ -469,4 +469,5 @@ def pedido_9_es():
 	att()
 	restart_program()
 
-dicas_es_init = ["[Consejos] Nuevas actualizaciones están llegando", "[Consejos] Los errores encontrados en el programa pueden ser reportados en github!", "[Consejos] Sígueme en el github: Zian25"]
+dicas_es_init = ["[Consejos] Nuevas actualizaciones están llegando", "[Consejos] Los errores encontrados en el programa pueden ser reportados en github!", "[Consejos] Sígueme en el github: Zian25"
+				, "[Consejos] No te olvides de comprobar las actualizaciones!", "[Consejos] Las opciones en rojo significan que no está funcionando ahora mismo!"]

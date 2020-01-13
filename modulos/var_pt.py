@@ -470,4 +470,5 @@ def pedido_9_pt():
 	restart_program()
 
 
-dicas_pt_init = ["[Dicas] Novas atualizações estão chegando!", "[Dicas] Os erros encontrados no programa podem ser reportados no github!", "[Dica] Siga-me no Github: Zian25"]
+dicas_pt_init = ["[Dicas] Novas atualizações estão chegando!", "[Dicas] Os erros encontrados no programa podem ser reportados no github!", "[Dicas] Siga-me no Github: Zian25"
+				, "[Dicas] Não esqueça de procurar atualizações!", "[Dicas] Opções em vermelho significa que não está funcionando no momento!"]
