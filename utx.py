@@ -119,6 +119,7 @@ def main():
 		elif en == True:
 			os.system("clear")
 			banner()
+			print ("\n")
 			print("  [1] Gathering Information")
 			print("  [2] Stress (DoS) ") 
 			print("  [3] Phishing (Attack of credentials)")
@@ -165,6 +166,7 @@ def main():
 		elif es == True:
 			os.system("clear")
 			banner()
+			print ("\n")
 			print("  [1] Recopilación de información")
 			print("  [2] Estrés (DoS) ") 
 			print("  [3] Phishing (Ataque de credenciales)")
