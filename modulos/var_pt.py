@@ -168,8 +168,9 @@ def pedido_2_pt():
 			print ("  [16] PyFlooder")
 			print ("  [17] Saddam")
 			print ("  [18] ntpdos")
-			print ("  [00] Sair do menu de instalação")
-			print ("                ")
+			print ("  [00] Sair do menu de instalação\n")
+			print (random.choice(dicas_menu2_pt))
+			print ("\n")
 
 			menu2 = input("Selecione uma opção: ")
 
@@ -270,25 +271,23 @@ def pedido_3_pt():
 				shellphish()
 
 			elif menu3 == "5" or menu3 == "05":
-				Umbrella()
-
-			elif menu3 == "6" or menu3 == "06":
 				HiddenEye()
 
-			elif menu3 == "7" or menu3 == "07":
+			elif menu3 == "6" or menu3 == "06":
 				gophish()
 
-			elif menu3 == "8" or menu3 == "08":
+			elif menu3 == "7" or menu3 == "07":
 				TurkSploit()
 
-			elif menu3 == "9" or menu3 == "09":
+			elif menu3 == "8" or menu3 == "08":
 				weeman()
 
-			elif menu3 == "10":
+			elif menu3 == "9" or menu3 == "09":
 				dnstwist()
 
-			elif menu3 == "11":
+			elif menu3 == "10":
 				Phlexish()
+
 
 
 
@@ -476,7 +475,9 @@ def pedido_9_pt():
 
 
 dicas_pt_init = ["[Dicas] Novas atualizações estão chegando!", "[Dicas] Os erros encontrados no programa podem ser reportados no github!", "[Dicas] Siga-me no Github: Zian25"
-				, "[Dicas] Não esqueça de procurar atualizações!", "[Dicas] Opções em vermelho significa que não está funcionando no momento!"]
+				, "[Dicas] Não esqueça de procurar atualizações!", "[Dicas] Opções em vermelho significa que não está funcionando no momento!", "[Dicas] Você pode sugerir uma função no github!"]
 
 
 dicas_menu1_pt = ["[Dicas] Coleta de informação é essencial para um ataque bem sucedido!", "[Dicas] Nmap é um bom começo!", "[Dicas] já camuflou seu IP?"]
+
+dicas_menu2_pt = ["[Dicas] É recomendável uma internet boa!"]

@@ -168,8 +168,9 @@ def pedido_2_en():
 			print ("  [16] PyFlooder")
 			print ("  [17] Saddam")
 			print ("  [18] ntpdos")
-			print ("  [00] Exit to the menu")
-			print ("                ")
+			print ("  [00] Exit to the menu\n")
+			print (random.choice(dicas_menu2_en))
+			print ("\n")
 
 			menu2 = input("Select an option: ")
 
@@ -270,24 +271,21 @@ def pedido_3_en():
 				shellphish()
 
 			elif menu3 == "5" or menu3 == "05":
-				Umbrella()
-
-			elif menu3 == "6" or menu3 == "06":
 				HiddenEye()
 
-			elif menu3 == "7" or menu3 == "07":
+			elif menu3 == "6" or menu3 == "06":
 				gophish()
 
-			elif menu3 == "8" or menu3 == "08":
+			elif menu3 == "7" or menu3 == "07":
 				TurkSploit()
 
-			elif menu3 == "9" or menu3 == "09":
+			elif menu3 == "8" or menu3 == "08":
 				weeman()
 
-			elif menu3 == "10":
+			elif menu3 == "9" or menu3 == "09":
 				dnstwist()
 
-			elif menu3 == "11":
+			elif menu3 == "10":
 				Phlexish()
 
 
@@ -477,7 +475,9 @@ def pedido_9_en():
 
 
 dicas_en_init = ["[Hints] New features coming soon!",  "[Hints] Errors found in the program can be reported in github!", "[Hints] Follow me on Github: Zian25", "[Hints] Don't forget to check for updates!" 
-				, "[Hints] Options in red means it's not working right now!"]
+				, "[Hints] Options in red means it's not working right now!", "[Hints] You can suggest a function at github!"]
 
 
 dicas_menu1_en = ["[Hints] Information gathering is essential for a successful attack!", "[Hints] Nmap is a good start!", "[Hints] Camouflaged your IP?"]
+
+dicas_menu2_en = ["[Hints] A good Internet is recommended!"]
