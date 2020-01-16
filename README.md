@@ -35,6 +35,6 @@ Telegram: @NickZi
 
 
 # Imagem
-<img src="modulos/utx.jpeg">
+<img src="modulos/utx">
 
 
