@@ -16,21 +16,20 @@ idioma = open("modulos/idioma.txt", "r+")
 leitor = idioma.readlines()
 analisa = len(leitor)
 if not analisa:
-	print ("Português-Brasil = pt ")
-	print ("Español = es")
-	print ("English = en\n")
+	print ("[01] Português-Brasil")
+	print ("[02] Español")
+	print ("[03] English\n")
 	print ("Select a language>")
 	lingua_seleciona = input("Selecione uma linguagem: ")
-	if lingua_seleciona == "en":
-		idioma.write("en")
-		pass
+	if lingua_seleciona == "01" or lingua_seleciona == "1":
+		idioma.write("pt")
 
-	elif lingua_seleciona == "es":
+	elif lingua_seleciona == "02" or lingua_seleciona == "2":
 		idioma.write("es")
 		pass
 
-	elif lingua_seleciona == "pt":
-		idioma.write("pt")
+	elif lingua_seleciona == "03" or lingua_seleciona == "3":
+		idioma.write("en")
 		pass
 
 	else:
