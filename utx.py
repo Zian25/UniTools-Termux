@@ -49,6 +49,8 @@ if not analisa:
 		print ("Change this language in the settings")
 		time.sleep(5)
 		idioma.write("pt")
+		idioma.close()
+		restart_program()
 
 pt = False
 en = False
