@@ -23,14 +23,20 @@ if not analisa:
 	lingua_seleciona = input("Selecione uma linguagem: ")
 	if lingua_seleciona == "01" or lingua_seleciona == "1":
 		idioma.write("pt")
+		idioma.close()
+		restart_program()
 		pass
 
 	elif lingua_seleciona == "02" or lingua_seleciona == "2":
 		idioma.write("es")
+		idioma.close()
+		restart_program()
 		pass
 
 	elif lingua_seleciona == "03" or lingua_seleciona == "3":
 		idioma.write("en")
+		idioma.close()
+		restart_program()
 		pass
 
 	else:
