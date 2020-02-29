@@ -40,6 +40,7 @@ def pedido_1_es():
 			print ("  [29] creepy")
 			print ("  [30] Seeker")
 			print ("  [31] Twifo-cli")
+			print ("  [32] Sherlock")
 			print ("  [00] Salir al menú\n")
 			print (random.choice(dicas_menu1_es))
 			print ("\n")
@@ -143,6 +144,9 @@ def pedido_1_es():
 
 			elif menu == "31":
 				twifo_cli()
+
+			elif menu == "32":
+				sherlock()
 
 			else:
 				erro_es()
@@ -429,7 +433,7 @@ def pedido_6_es():
 	print ("  [3] Nethunter")
 	print (vermelho + "  [4] Routersploit" + branco)
 	print ("  [5] Nginx")
-	print ("  [6] Ngrok")
+	print (vermelho + "  [6] Ngrok" + branco)
 	print ("  [00] Salir al menú\n")
 
 	menu6 = input("Selecione uma opção: ")
@@ -461,7 +465,8 @@ def pedido_6_es():
 
 def pedido_7_es():
 	os.system("clear")
-	print ("Python & Pip")
+	print ("En poco tiempo...")
+	time.sleep(4)
 	restart_program()
 
 

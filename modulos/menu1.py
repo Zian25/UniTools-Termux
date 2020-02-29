@@ -290,3 +290,14 @@ def twifo_cli():
 	os.system("npm install --global twifo-cli")
 	cc()
 	restart_program()
+
+
+def sherlock():
+	update()
+	os.system("git clone https://github.com/sherlock-project/sherlock.git")
+	os.system("mv sherlock ~")
+	os.system("cd ~/sherlock")
+	os.system("python3 -m pip install -r requirements.txt")
+	cc()
+	restart_program()
+

@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 import sys
+if sys.version_info[0] < 3:
+    print ("Python 2 não é suportado, use Python 3!")
+    exit(1)
+
 import random
 sys.path.append("modulos")
 from Zawiencom import *
@@ -11,6 +15,7 @@ from menu5 import *
 from autoinstalador import *
 from conf import *
 # from Zawie import *
+
 
 idioma = open("modulos/idioma.txt", "r+")
 leitor = idioma.readlines()
@@ -90,7 +95,7 @@ def main():
 			print ("  [4] Ferramentas de Exploração (Exploit)(Scanners)")
 			print ("  [5] Ferramentas de Brute-force")
 			print ("  [6] Outros (Instaladores & Utilidades)")
-			print ( vermelho + "  [7] Pacotes" + branco)
+			print ( vermelho + "  [7] ZawieSole - Beta" + branco)
 			print ("  [8] Configurações")
 			print ("  [9] Procurar atualização (UniTools-Termux)")
 			print ("  [X] Sair\n")
@@ -146,7 +151,7 @@ def main():
 			print("  [4] Exploit & Scanners")
 			print("  [5] Brute-force")
 			print("  [6] Others (Installers and Utilities)")
-			print(vermelho + "  [7] Packages" + branco)
+			print(vermelho + "  [7] ZawieSole - Beta" + branco)
 			print("  [8] Settings")
 			print("  [9] Search update (UniTools-Termux)")
 			print("  [X] Exit\n")
@@ -202,7 +207,7 @@ def main():
 			print("  [4] Exploit & Scanners")
 			print("  [5] Fuerza bruta")
 			print("  [6] Otros (Instaladores y Utilidades)")
-			print(vermelho + "  [7] Paquetes" + branco)
+			print(vermelho + "  [7] ZawieSole - Beta" + branco)
 			print("  [8] Configuración")
 			print("  [9] Buscar actualización (UniTools-Termux)")
 			print("  [X] Salir\n")

@@ -158,6 +158,9 @@ def conf():
 				f.close()
 				restart_program()
 
+		if configura == "2" or configura == "02":
+			restart_program()
+
 
 
 
