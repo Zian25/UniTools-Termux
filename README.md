@@ -6,8 +6,9 @@
 
 
 # UniTools-Termux
-Instalador de ferramentas hacking para termux contando com +118‬ Ferramentas
-
+Instalador de ferramentas hacking para termux 
+It contains English translation!
+¡Contiene traducción al español!
 
 Como usar?
 
