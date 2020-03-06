@@ -9,6 +9,12 @@
 Instalador de ferramentas hacking para termux 
 
 
+Hacking tool installer for Termux 
+
+
+Instalador de herramientas de hacking para Termux 
+
+
 It contains English translation!
 
 
