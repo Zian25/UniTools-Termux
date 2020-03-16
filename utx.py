@@ -2,7 +2,7 @@
 import sys
 if sys.version_info[0] < 3:
     print ("Python 2 não é suportado, use Python 3!")
-    exit(1)
+    exit(0)
 
 import random
 sys.path.append("modulos")
