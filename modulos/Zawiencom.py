@@ -3,6 +3,7 @@
 import os
 import sys
 import time
+import re
 vermelho = '\033[31m'
 branco = '\033[37m'
 verde = '\033[32m'
@@ -122,8 +123,51 @@ def menu_pacote_1():
 
 # Inicio da opção de atualização
 def att():
-	os.system("git pull")
+	os.system("clear")
+	checker = os.popen("git pull").read()
+	if re.search("Already up to date.", checker):
+		if pt == True:
+			print ("Não há atualizações.")
+			time.sleep(4)
+			restart_program()
 
+	
+		elif es == True:
+			print ("No hay actualizaciones.")
+			time.sleep(4)
+			restart_program()
+
+		elif en == True:
+			print ("No updates.")
+			time.sleep(4)
+			restart_program()
+
+		else:
+			print("Não foi possivel determinar seu idioma...")
+			time.sleep(4)
+			restart_program()
+
+	else:
+
+		if pt == True:
+			print ("Atualização disponivel!")
+			time.sleep(4)
+			restart_program()
+
+		elif es == True:
+			print ("Actualización disponible!")
+			time.sleep(4)
+			restart_program()
+
+		elif en == True:
+			print ("Update available!")
+			time.sleep(4)
+			restart_program()
+
+		else:
+			print("Não foi possivel determinar...")
+			time.sleep(4)
+			restart_program()
 
 
 # Fim da opção de atualização

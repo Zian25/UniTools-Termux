@@ -5,6 +5,7 @@ if sys.version_info[0] < 3:
     exit(0)
 
 import random
+import re
 sys.path.append("modulos")
 from Zawiencom import *
 from menu1 import *
@@ -129,7 +130,7 @@ def main():
 				conf()
 
 			elif pedido == "9" or pedido == "09":
-				pedido_9_pt()
+				att()
 
 			elif pedido == "X" or pedido == "xx" or pedido == "XX" or pedido == "x":
 				os.system("clear")
@@ -183,7 +184,7 @@ def main():
 				conf()
 
 			elif pedido == "9" or pedido == "09":
-				pedido_9_en()
+				att()
 
 			elif pedido == "X" or pedido == "xx" or pedido == "XX" or pedido == "x":
 				os.system("clear")
@@ -239,7 +240,7 @@ def main():
 				conf()
 
 			elif pedido == "9" or pedido == "09":
-				pedido_9_es()
+				att()
 
 			elif pedido == "X" or pedido == "xx" or pedido == "XX" or pedido == "x":
 				os.system("clear")
@@ -260,7 +261,54 @@ def main():
 		time.sleep(1)
 		os.system("clear")
 
+def att():
+	os.system("clear")
+	checker = os.popen("git pull").read()
+	if re.search("Already up to date.", checker):
+		if pt == True:
+			print ("Não há atualizações.")
+			time.sleep(4)
+			restart_program()
+
+	
+		elif es == True:
+			print ("No hay actualizaciones.")
+			time.sleep(4)
+			restart_program()
+
+		elif en == True:
+			print ("No updates.")
+			time.sleep(4)
+			restart_program()
+
+		else:
+			print("Não foi possivel determinar seu idioma...")
+			time.sleep(4)
+			restart_program()
+
+	else:
+
+		if pt == True:
+			print ("Atualização disponivel!")
+			time.sleep(4)
+			restart_program()
+
+		elif es == True:
+			print ("Actualización disponible!")
+			time.sleep(4)
+			restart_program()
+
+		elif en == True:
+			print ("Update available!")
+			time.sleep(4)
+			restart_program()
+
+		else:
+			print("Não foi possivel determinar...")
+			time.sleep(4)
+			restart_program()
 
 
 if __name__ == "__main__":
 	main()
+
