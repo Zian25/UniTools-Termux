@@ -132,10 +132,9 @@ def main():
 			elif pedido == "9" or pedido == "09":
 				att()
 
-			elif pedido == "X" or pedido == "xx" or pedido == "XX" or pedido == "x":
+			elif pedido.lower() == "x" or pedido.lower() == "xx":
 				os.system("clear")
 				print ("\nSaindo...")
-				time.sleep(5)
 				sys.exit()
 
 			else:
@@ -186,10 +185,9 @@ def main():
 			elif pedido == "9" or pedido == "09":
 				att()
 
-			elif pedido == "X" or pedido == "xx" or pedido == "XX" or pedido == "x":
+			elif pedido.lower() == "x" or pedido.lower() == "xx":
 				os.system("clear")
 				print ("\nLeaving...")
-				time.sleep(5)
 				sys.exit()
 
 
@@ -242,10 +240,9 @@ def main():
 			elif pedido == "9" or pedido == "09":
 				att()
 
-			elif pedido == "X" or pedido == "xx" or pedido == "XX" or pedido == "x":
+			elif pedido.lower() == "x" or pedido.lower() == "xx":
 				os.system("clear")
 				print ("\nSaliendo...")
-				time.sleep(5)
 				sys.exit()
 
 
