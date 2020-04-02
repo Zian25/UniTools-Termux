@@ -86,3 +86,14 @@ def Phlexish():
 	os.system("mv Phlexish ~")
 	cc()
 	restart_program()
+
+
+def zphisher():
+	update()
+	os.system("apt-get install git php openssh curl -y")
+	os.system("git clone https://github.com/htr-tech/zphisher")
+	os.system("mv zphisher ~")
+	os.system("cd ~/zphisher")
+	os.system("chmod +x zphisher.sh")
+	cc()
+	restart_program()

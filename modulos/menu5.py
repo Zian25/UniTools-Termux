@@ -80,3 +80,14 @@ def brutespray():
 	os.system("pip install -r requirements.txt")
 	cc()
 	restart_program()
+
+
+def hyprPulse():
+	update()
+	os.system("git clone https://github.com/Pure-L0G1C/hyprPulse.git")
+	os.system("mv hyprPulse ~")
+	os.system("cd ~/hyprPulse")
+	os.system("chmod + x install.sh")
+	os.system("./install.sh")
+	cc()
+	restart_program()

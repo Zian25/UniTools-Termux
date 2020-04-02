@@ -253,8 +253,8 @@ def pedido_3_es():
 			print ("  [8] weeman")
 			print ("  [9] dnstwist")
 			print ("  [10] Phlexish")
-			print ("  [00] Salir al menú")
-			print ("         ")
+			print ("  [11] zphisher")
+			print ("  [00] Salir al menú\n")
 			menu3 = input("Selecione uma opção: ")
 
 			if menu3 == "0" or menu3 == "00":
@@ -290,6 +290,9 @@ def pedido_3_es():
 
 			elif menu3 == "10":
 				Phlexish()
+
+			elif menu3 == "11":
+				zphisher()
 
 
 
@@ -384,6 +387,7 @@ def pedido_5_es():
 			print ("  [8] Hash-Buster")
 			print ("  [9] Facebom")
 			print ("  [10] brutespray")
+			print ("  [11] hyprPulse")
 			print ("  [00] Salir al menú\n")
 
 			menu5 = input("Selecione uma opção: ")
@@ -421,6 +425,9 @@ def pedido_5_es():
 
 			elif menu5 == "10":
 				Facebom()
+
+			elif menu5 == "11":
+				hyprPulse()
 
 			else:
 				erro_es()
