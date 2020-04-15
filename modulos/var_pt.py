@@ -471,8 +471,12 @@ def pedido_6_pt():
 
 def pedido_7_pt():
 	os.system("clear")
-	print ("Em breve...")
-	time.sleep(4)
+	print ("Em breve...\n")
+	print("O que vai ser?")
+	print("Um terminal com funções diversificadas Ex: Exploits/Scanners, webscanners. Terminal tudo em um para pentesters!\n")
+	print("Quando?")
+	print("Até o momento não há uma data especifica, virá na versão 1.2!\n")
+	input("Aperte algo para voltar: ")
 	restart_program()
 
 
