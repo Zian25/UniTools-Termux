@@ -44,8 +44,8 @@ def Nethunter():
 	restart_program()
 
 def routersploit():
-    update()
- 	print ("Error")
+    #update()
+ 	#print ("Error")
     restart_program()
     pass
 
