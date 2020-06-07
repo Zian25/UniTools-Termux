@@ -14,11 +14,10 @@ from autoinstalador import *
 def metasploit():
 	update()
 	os.system("cd ~")
-	os.system("pkg install wget")
-	os.system("wget https://Auxilus.github.io/metasploit.sh")
-	os.system("mv metasploit ~")
-	os.system("cd metasploit")
-	os.system("bash metasploit.sh")
+	os.system("apt update")
+	os.system("apt upgrade")
+	os.system("pkg install unstable-repo")
+	os.system("pkg install metasploit")
 	cc()
 	restart_program()
 
@@ -46,12 +45,7 @@ def Nethunter():
 
 def routersploit():
     update()
-    os.system("cd ~")
-    os.system("apt update")
-    os.system("apt upgrade")
-    os.system("pkg install unstable-repo")
-    os.system("pkg install metasploit")
-    cc()
+ 	print ("Error")
     restart_program()
     pass
 
