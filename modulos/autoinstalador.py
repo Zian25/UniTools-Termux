@@ -77,6 +77,6 @@ def ngrok():
 	os.system("mv ngrok /data/data/com.termux/files/home")
 	os.system("chmod +x ngrok")
 	chave = input("Digite sua chave de autenticação: ")
-	os.system("./ngrok authtoken {chave}")
+	os.system(f"./ngrok authtoken {chave}")
 	cc()
 	restart_program()
