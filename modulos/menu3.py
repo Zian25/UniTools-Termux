@@ -95,7 +95,7 @@ def Phlexish():
 
 def zphisher():
 	update()
-	os.system("apt-get install git php openssh curl -y")
+	#os.system("apt-get install git php openssh curl -y")
 	os.system("git clone https://github.com/htr-tech/zphisher")
 	os.system("mv zphisher ~")
 	os.system("cd ~/zphisher")
