@@ -6,8 +6,8 @@ from Zawiencom import *
 
 def xerxes():
 	update()
-	os.system("git clone https://github.com/4w4k3/KnockMail.git")
-	os.system("mv KnockMail ~")
+	os.system("git clone https://github.com/sepehrdaddev/Xerxes.git")
+	os.system("mv Xerxes ~")
 	cc()
 	restart_program()
 

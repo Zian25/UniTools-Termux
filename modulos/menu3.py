@@ -16,6 +16,8 @@ def SocialPhish():
 	update()
 	os.system("git clone https://github.com/xHak9x/SocialPhish.git")
 	os.system("mv SocialPhish ~")
+	os.system("cd ~/SocialPhish")
+	os.system("chmod +x socialphish.sh")
 	cc()
 	restart_program()
 
@@ -47,6 +49,9 @@ def HiddenEye():
 	os.system("pkg install php")
 	os.system("git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/HiddenEye.git")
 	os.system("mv HiddenEye ~")
+	os.system("cd ~/HiddenEye")
+	os.system("pip3 install -r requirements.txt")
+	os.system("pip3 install requests")
 	cc()
 	restart_program()
 
