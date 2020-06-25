@@ -317,6 +317,7 @@ def pedido_4_pt():
 			print ("  [13] Xshell")
 			print ("  [14] sqlninja")
 			print ("  [15] DirAttack")
+			print ("  [16] DirKiller")
 			print ("  [00] Para sair para o menu\n")
 			menu4 = input("Selecione uma opção: ")
 
@@ -369,6 +370,8 @@ def pedido_4_pt():
 			elif menu4 == "15":
 				DirAttack()
 
+			elif menu4 == "16":
+				DirKiller()
 
 			else:
 				erro()

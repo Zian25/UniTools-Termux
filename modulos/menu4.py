@@ -38,6 +38,7 @@ def RevsliderAutoExploiter():
 
 def sqlmap():
 	update()
+	os.system("pkg install python2")
 	os.system("git clone https://github.com/sqlmapproject/sqlmap.git")
 	os.system("mv sqlmap ~")
 	cc()
@@ -122,5 +123,13 @@ def DirAttack():
 	os.system("cd DirAttack")
 	os.system("chmod +x install.py")
 	os.system("python3 install.py")
+	cc()
+	restart_program()
+
+
+def DirKiller():
+	update()
+	os.system("git clone https://github.com/Zian25/DirKiller.git")
+	os.system("mv DirKiller ~")
 	cc()
 	restart_program()
