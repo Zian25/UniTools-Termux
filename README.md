@@ -41,7 +41,6 @@ Now translated to English!
 Ahora traducido al español!
 
 
-Telegram: @NickZi
 
 
 
