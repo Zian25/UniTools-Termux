@@ -491,7 +491,7 @@ def pedido_9_en():
 
 
 
-dicas_en_init = ["[Hints] New features coming soon!",  "[Hints] Errors found in the program can be reported in github!", "[Hints] Follow me on Github: Zian25", "[Hints] Don't forget to check for updates!" 
+dicas_en_init = ["[Hints] New features coming soon!",  "[Hints] Errors found in the program can be reported in github!", "[Hints] Don't forget to check for updates!"
 				, "[Hints] Options in red means it's not working right now!", "[Hints] You can suggest a function at github!"]
 
 

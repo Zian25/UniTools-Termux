@@ -490,8 +490,8 @@ def pedido_9_pt():
 	restart_program()
 
 
-dicas_pt_init = ["[Dicas] Novas atualizações estão chegando!", "[Dicas] Os erros encontrados no programa podem ser reportados no github!", "[Dicas] Siga-me no Github: Zian25"
-				, "[Dicas] Não esqueça de procurar atualizações!", "[Dicas] Opções em vermelho significa que não está funcionando no momento!", "[Dicas] Você pode sugerir uma função no github!"]
+dicas_pt_init = ["[Dicas] Novas atualizações estão chegando!", "[Dicas] Os erros encontrados no programa podem ser reportados no github!"
+				,"[Dicas] Não esqueça de procurar atualizações!", "[Dicas] Opções em vermelho significa que não está funcionando no momento!", "[Dicas] Você pode sugerir uma função no github!"]
 
 
 dicas_menu1_pt = ["[Dicas] Coleta de informação é essencial para um ataque bem sucedido!", "[Dicas] Nmap é um bom começo!", "[Dicas] já camuflou seu IP?"]

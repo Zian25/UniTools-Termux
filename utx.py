@@ -25,7 +25,7 @@ if not analisa:
 	print ("[01] Português-Brasil")
 	print ("[02] Español")
 	print ("[03] English\n")
-	print ("Select a language>")
+	print ("Select a language")
 	lingua_seleciona = input("Selecione uma linguagem: ")
 	if lingua_seleciona == "01" or lingua_seleciona == "1":
 		idioma.write("pt")
