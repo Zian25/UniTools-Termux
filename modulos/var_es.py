@@ -254,6 +254,7 @@ def pedido_3_es():
 			print ("  [9] dnstwist")
 			print ("  [10] Phlexish")
 			print ("  [11] zphisher")
+			print ("  [12] nexphisher")
 			print ("  [00] Salir al menú\n")
 			menu3 = input("Selecione uma opção: ")
 
@@ -294,6 +295,8 @@ def pedido_3_es():
 			elif menu3 == "11":
 				zphisher()
 
+			elif menu3 == "12":
+				nexphisher()
 
 
 			else:

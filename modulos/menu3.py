@@ -102,3 +102,13 @@ def zphisher():
 	os.system("chmod +x zphisher.sh")
 	cc()
 	restart_program()
+
+
+def nexphisher():
+	update()
+	os.system("git clone https://github.com/htr-tech/nexphisher.git")
+	os.system("mv nexphisher ~")
+	os.system("cd ~/nexphisher")
+	os.system("bash tmux_setup")
+	cc()
+	restart_program()

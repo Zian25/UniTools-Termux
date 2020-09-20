@@ -32,6 +32,9 @@ def erro():
 	os.system("clear")
 	restart_program()
 
+def instalador(url=None, range_install=[], name=None, installer=None):
+	pass
+
 def erro_en():
 	os.system("clear")
 	print ("OPS! It seems that you inserted an incorrect option :(")
