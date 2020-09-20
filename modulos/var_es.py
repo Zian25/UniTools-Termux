@@ -493,7 +493,7 @@ def pedido_9_es():
 	restart_program()
 
 dicas_es_init = ["[Consejos] Nuevas actualizaciones están llegando", "[Consejos] Los errores encontrados en el programa pueden ser reportados en github!"
-				,"[Consejos] No te olvides de comprobar las actualizaciones!", "[Consejos] Las opciones en rojo significan que no está funcionando ahora mismo!", "[Consejos] Puedes sugerir una función en github!"]
+				,"[Consejos] No te olvides de comprobar las actualizaciones!", "[Consejos]¿Sabías que hay una rama beta de UniTools-Termux?"]
 
 dicas_menu1_es = ["[Consejos] La recopilación de información es esencial para el éxito de un ataque!", "[Consejos] Nmap es un buen comienzo!", "[Consejos] Camufló su IP?"]
 

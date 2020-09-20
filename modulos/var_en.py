@@ -487,8 +487,7 @@ def pedido_7_en():
 	restart_program()
 
 
-dicas_en_init = ["[Hints] New features coming soon!",  "[Hints] Errors found in the program can be reported in github!", "[Hints] Don't forget to check for updates!"
-				, "[Hints] Options in red means it's not working right now!", "[Hints] You can suggest a function at github!"]
+dicas_en_init = ["[Hints] New features coming soon!",  "[Hints] Errors found in the program can be reported in github!", "[Hints] Don't forget to check for updates!", "[Tips] Did you know that there is a UniTools-Termux beta branch?"]
 
 
 dicas_menu1_en = ["[Hints] Information gathering is essential for a successful attack!", "[Hints] Nmap is a good start!", "[Hints] Camouflaged your IP?"]
