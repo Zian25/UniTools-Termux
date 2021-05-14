@@ -4,9 +4,11 @@ import os
 import sys
 import time
 import re
+import subprocess
 vermelho = '\033[31m'
 branco = '\033[37m'
 verde = '\033[32m'
+
 
 #Banner 
 def banner():
@@ -32,7 +34,21 @@ def erro():
 	os.system("clear")
 	restart_program()
 
-def instalador(url=None, range_install=[], name=None, installer=None):
+def instalador(url=None, name=None, move=True, installer=None):
+	update()
+	if url != None:
+		os.system(f"git clone {url}")
+
+	if move != False:
+		os.system(f"mv {name} ~")
+
+	if installer != None:
+		os.system(f"cd ~/{name}")
+		os.system(installer)
+
+	cc()
+	restart_program()
+
 	pass
 
 def erro_en():

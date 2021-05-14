@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #Modulo do UniTools-Termux
+from modulos.Zawiencom import instalador
 import os
 import sys
 import time
@@ -91,3 +92,8 @@ def hyprPulse():
 	os.system("./install.sh")
 	cc()
 	restart_program()
+
+
+def lazybee():
+	instalador(url="https://github.com/noob-hackers/lazybee.git", 
+	name="lazybee", installer="pkg install python2 -y && pip install lolcat -y")

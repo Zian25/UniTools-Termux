@@ -1,3 +1,4 @@
+from modulos.menu5 import lazybee
 import sys
 import random
 from Zawiencom import *
@@ -42,6 +43,7 @@ def pedido_1_pt():
 			print ("  [30] Seeker")
 			print ("  [31] Twifo-cli")
 			print ("  [32] Sherlock")
+			print ("  [33] osi.ig")
 			print ("  [00] Para Voltar\n")
 			print (random.choice(dicas_menu1_pt))
 			print ("\n")
@@ -148,6 +150,9 @@ def pedido_1_pt():
 
 			elif menu == "32":
 				sherlock()
+
+			elif menu == "33":
+				osi_ig()
 
 			else:
 				erro()
@@ -387,13 +392,14 @@ def pedido_5_pt():
 			print ("  [2] Hydra ")
 			print ("  [3] facebook-cracker")
 			print ("  [4] Instahack")
-			print ("  [5] crunch")
+			print ("  [5] crunch (Wordlist gen)")
 			print ("  [6] hashcat")
 			print ("  [7] Black-Hydra")
 			print ("  [8] Hash-Buster")
 			print ("  [9] Facebom")
 			print ("  [10] brutespray")
 			print ("  [11] hyprPulse")
+			print ("  [12] Lazybee (Wordlist gen)")
 			print ("  [00] Para sair para o menu\n")
 
 			menu5 = input("Selecione uma opção: ")
@@ -434,6 +440,9 @@ def pedido_5_pt():
 
 			elif menu5 == "11":
 				hyprPulse()
+
+			elif menu5 == "12":
+				lazybee()
 
 			else:
 				erro()

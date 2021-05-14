@@ -301,3 +301,10 @@ def sherlock():
 	cc()
 	restart_program()
 
+
+def osi_ig():
+	update()
+	os.system("git clone https://github.com/th3unkn0n/osi.ig.git")
+	os.system("mv osi.ig ~")
+	cc()
+	restart_program()

@@ -64,20 +64,25 @@ es = False
 pt_check = "pt"
 en_check = "en"
 es_check = "es"
+
+from var_pt import *
+from var_en import *
+from var_es import *
+
 with open("modulos/idioma.txt", "r") as a:
 	for linha in a:
 		if pt_check.lower() == linha.lower().strip():
 			pt = True
-			from var_pt import *
+			#from var_pt import *
 			pass
 		elif en_check.lower() == linha.lower().strip():
 			en = True
-			from var_en import *
+			#from var_en import *
 			pass
 
 		elif es_check.lower() == linha.lower().strip():
 			es = True
-			from var_es import *
+			#from var_es import *
 			pass
 
 
@@ -159,25 +164,25 @@ def main():
 			print("\n")
 			pedido = input("Select an option: ")
 			if pedido == "1" or pedido == "01":
-				pedido_1_en()
+				pedido_1_pt()
 
 			elif pedido == "2" or pedido == "02":
-				pedido_2_en()
+				pedido_2_pt()
 
 			elif pedido == "3" or pedido == "03":
-				pedido_3_en()
+				pedido_3_pt()
 
 			elif pedido == "4" or pedido == "04":
-				pedido_4_en()
+				pedido_4_pt()
 
 			elif pedido == "5" or pedido == "05":
-				pedido_5_en()
+				pedido_5_pt()
 
 			elif pedido == "6" or pedido == "06":
-				pedido_6_en()
+				pedido_6_pt()
 
 			elif pedido == "7" or pedido == "07":
-				pedido_7_en()
+				pedido_7_pt()
 
 			elif pedido == "8" or pedido == "08":
 				conf()
@@ -214,25 +219,25 @@ def main():
 			print ("\n")
 			pedido = input("Seleccione una opción: ")
 			if pedido == "1" or pedido == "01":
-				pedido_1_es()
+				pedido_1_pt()
 
 			elif pedido == "2" or pedido == "02":
-				pedido_2_es()
+				pedido_2_pt()
 
 			elif pedido == "3" or pedido == "03":
-				pedido_3_es()
+				pedido_3_pt()
 
 			elif pedido == "4" or pedido == "04":
-				pedido_4_es()
+				pedido_4_pt()
 
 			elif pedido == "5" or pedido == "05":
-				pedido_5_es()
+				pedido_5_pt()
 
 			elif pedido == "6" or pedido == "06":
-				pedido_6_es()
+				pedido_6_pt()
 
 			elif pedido == "7" or pedido == "07":
-				pedido_7_es()
+				pedido_7_pt()
 
 			elif pedido == "8" or pedido == "08":
 				conf()
