@@ -55,7 +55,7 @@ def cc():
 	print ("Concluido!")
 	time.sleep(3)
 def update():
-	os.system("apt-get update && apt-get upgrade && apt-get dist-upgrade -y")
+	os.system("pkg update -y && pkg upgrade -y")
 
 def root():
 	print ("Root é necessario")
