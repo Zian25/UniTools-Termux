@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*- 
+from modulos.Zawiencom import instalador
 import os
 import sys
 import time
@@ -112,3 +113,9 @@ def nexphisher():
 	os.system("bash tmux_setup")
 	cc()
 	restart_program()
+
+
+
+def grabcam():
+	instalador(url="https://github.com/noob-hackers/grabcam.git", name=grabcam, installer="pip install lolcat")
+	

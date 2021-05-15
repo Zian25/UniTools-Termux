@@ -1,3 +1,4 @@
+from modulos.menu3 import grabcam
 from modulos.menu5 import lazybee
 import sys
 import random
@@ -261,6 +262,7 @@ def pedido_3_pt():
 			print ("  [10] Phlexish")
 			print ("  [11] zphisher")
 			print ("  [12] nexphisher")
+			print ("  [13] grabcam")
 			print ("  [00] Sair para o menu\n")
 			menu3 = input("Selecione uma opção: ")
 
@@ -303,6 +305,9 @@ def pedido_3_pt():
 
 			elif menu3 == "12":
 				nexphisher()
+
+			elif menu3 == "13":
+				grabcam()
 
 			else:
 				erro()
