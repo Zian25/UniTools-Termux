@@ -117,5 +117,5 @@ def nexphisher():
 
 
 def grabcam():
-	instalador(url="https://github.com/noob-hackers/grabcam.git", name=grabcam, installer="pip install lolcat")
+	instalador(url="https://github.com/noob-hackers/grabcam.git", name="grabcam", installer="pip install lolcat")
 	
