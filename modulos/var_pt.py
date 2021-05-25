@@ -509,7 +509,7 @@ def pedido_9_pt():
 
 
 dicas_pt_init = ["[Dicas] Novas atualizações estão chegando!", "[Dicas] Os erros encontrados no programa podem ser reportados no github!"
-				,"[Dicas] Não esqueça de procurar atualizações!", "[Dicas] Sabia que existe um branch beta do UniTools-Termux?"]
+				,"[Dicas] Não esqueça de procurar atualizações!", "[Dicas] Você pode sugerir uma função na aba 'Discussão' no github"]
 
 
 dicas_menu1_pt = ["[Dicas] Coleta de informação é essencial para um ataque bem sucedido!", "[Dicas] Nmap é um bom começo!", "[Dicas] já camuflou seu IP?"]
