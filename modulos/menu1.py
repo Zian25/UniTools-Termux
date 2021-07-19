@@ -9,302 +9,127 @@ def nmap():
 	update()
 	os.system ("apt-get install nmap")
 	cc()
-	print ("Digite nmap no terminal para usar!")
 	restart_program()
 
 #2
 def Th3inspector():
-	update()
-	os.system("git clone https://github.com/Moham3dRiahi/Th3inspector.git")
-	os.system("mv Th3inspector ~")
-	os.system("cd ~")
-	os.system("cd Th3inspector")
-	os.system("chmod +x install.sh && ./install.sh")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/Moham3dRiahi/Th3inspector.git", name="Th3inspector", move=True, installer="cd ~/Th3inspector && chmod +x install.sh && ./install.sh")
 
 #3
 def angryFuzzer():
-	update()
-	os.system("git clone https://github.com/ihebski/angryFuzzer.git")
-	os.system("mv angryFuzzer ~")
-	os.system("cd ~")
-	os.system("cd angryFuzzer")
-	patch_pip()
-	os.system("pip install -r requirements.txt")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/ihebski/angryFuzzer.git", name="angryFuzzer", move=True, installer="cd ~/angryFuzzer && pip install -r requirements.txt")
 
 #4
 def PhoneInfoga():
-	update()
-	os.system("git clone https://github.com/sundowndev/PhoneInfoga.git")
-	os.system("mv PhoneInfoga ~ ")
-	os.system("cd ~")
-	os.system("cd PhoneInfoga")
-	os.system("pip install -r requirements.txt")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/sundowndev/PhoneInfoga.git", name="PhoneInfoga", move=True, installer="cd ~/PhoneInfoga && pip install -r requirements.txt")
 
 def FBI():
-	update()
-	os.system("git clone https://github.com/KnightSec-Official/FBI.git")
-	os.system("mv FBI ~")
-	python2_path()
-	os.system("cd ~")
-	os.system("cd FBI")
-	os.system("pip2 install -r requirements.txt")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/KnightSec-Official/FBI.git", name="FBI", move=True, installer="cd ~/FBI && pip2 install -r requirements.txt")
 
 
 def Infoga():
-	update()
-	os.system("git clone https://github.com/m4ll0k/Infoga.git")
-	os.system("mv Infoga ~")
-	os.system("cd ~")
-	os.system("python3 setup.py install")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/m4ll0k/Infoga.git", name="Infoga", move=True, installer="cd ~/Infoga && python3 setup.py install")
 
 def InfoSploit():
-	update()
-	os.system("git clone https://github.com/CybernetiX-S3C/InfoSploit.git")
-	os.system("mv InfoSploit ~")
-	os.system("cd ~")
-	os.system("cd InfoSploit")
-	python2_path()
-	os.system("chmod +x install")
-	os.system("./install")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/CybernetiX-S3C/InfoSploit.git", name="InfoSploit", move=True, installer="cd ~/InfoSploit && chmod +x install && ./install")
 
 
 def BillCipher():
-	update()
-	os.system("git clone https://github.com/GitHackTools/BillCipher.git")
-	os.system("mv BillCipher ~")
-	os.system("apt update && apt install ruby python python-pip python3 python3-pip")
-	os.system("apt install httrack whatweb")
-	os.system("pip install -r requirements.txt")
-	os.system("pip3 install -r requirements.txt")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/GitHackTools/BillCipher.git", name="BillCipher", move=True, installer="cd ~/BillCipher && apt update && apt install ruby python python-pip python3 python3-pip && apt install httrack whatweb && pip install -r requirements.txt && pip3 install -r requirements.txt")
+
 
 
 def gasmask():
-	update()
-	os.system("git clone https://github.com/twelvesec/gasmask.git")
-	os.system(" mv gasmask ~")
-	os.system("cd ~/gasmask")
-	os.system("pip install -r requirements.txt")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/twelvesec/gasmask.git", name="gasmask", move=True, installer="cd ~/gasmask && pip install -r requirements.txt")
 
 
 def OSIF():
-	update()
-	os.system("git clone https://github.com/CiKu370/OSIF.git")
-	os.system("mv OSIF ~")
-	python2_path()
-	os.system("cd ~/OSIF")
-	path_pip2()
-	os.system("pip2 install -r requirements.txt")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/CiKu370/OSIF.git", name="OSIF", move=True, installer="cd ~/OSIF && pip2 install -r requirements.txt")
 
 
 def inmux():
-	update()
-	os.system("git clone https://github.com/Indonesia-Security-Lite/inmux.git")
-	os.system("mv inmux ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/Indonesia-Security-Lite/inmux.git", name="inmux", move=True, installer="None")
 
 
 def IPTracer():
-	update()
-	os.system("git clone https://github.com/Rajkumrdusad/IP-Tracer.git")
-	os.system("mv IP-Tracer ~")
-	os.system("cd ~")
-	os.system("cd IP-Tracer")
-	os.system("chmod +x install")
-	os.system("sh install")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/Rajkumrdusad/IP-Tracer.git", name="IPTracer", move=True, installer="cd ~/IPTracer && chmod +x install && sh install")
 
 
 def RED_HAWK():
-	update()
-	os.system("git clone https://github.com/Tuhinshubhra/RED_HAWK.git")
-	os.system("mv RED_HAWK ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/Tuhinshubhra/RED_HAWK.git", name="RED_HAWK", move=True, installer="None")
 
 
 def TMscanner():
-	update()
-	os.system("git clone https://github.com/TechnicalMujeeb/TM-scanner.git")
-	os.system("mv TM-scanner ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/TechnicalMujeeb/TM-scanner.git", name="TMscanner", move=True, installer="None")
 
 
 def sqlmx_termux():
-	update()
-	os.system("git clone https://github.com/CYB3RMX/sqlmx_termux.git")
-	os.system("mv sqlmx_termux ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/CYB3RMX/sqlmx_termux.git", name="sqlmx_termux", move=True, installer="None")
 
 
 def reconspider():
-	update()
-	os.system("git clone https://github.com/bhavsec/reconspider.git")
-	os.system("mv reconspider ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/bhavsec/reconspider.git", name="reconspider", move=True, installer="None")
 
 
 def ReconDog():
-	update()
-	os.system("git clone https://github.com/s0md3v/ReconDog.git")
-	os.system("mv ReconDog ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/s0md3v/ReconDog.git", name="ReconDog", move=True, installer="None")
 
 def userrecon():
-	update()
-	os.system("git clone https://github.com/thelinuxchoice/userrecon.git")
-	os.system("mv userrecon ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/thelinuxchoice/userrecon.git", name="userrecon", move=True, installer="None")
 
 
 def IPGeolocation():
-	update()
-	os.system("git clone https://github.com/JohnLuca12/IPGeolocation.git")
-	os.system("mv IPGeolocation ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/JohnLuca12/IPGeolocation.git", name="IPGeolocation", move=True, installer="None")
 
 
 def OptivaFramework():
-	update()
-	os.system("git clone https://github.com/joker25000/Optiva-Framework.git")
-	os.system("mv Optiva-Framework ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/joker25000/Optiva-Framework.git", name="OptivaFramework", move=True, installer="None")
 
 
 def wpscan():
-	update()
-	os.system("git clone https://github.com/wpscanteam/wpscan.git")
-	os.system("mv wpscan ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/wpscanteam/wpscan.git", name="wpscan", move=True, installer="None")
 
 
 def theHarvester():
-	update()
-	os.system("git clone https://github.com/laramies/theHarvester.git")
-	os.system("mv theHarvester ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/laramies/theHarvester.git", name="theHarvester", move=True, installer="None")
 
 
 def KnockMail():
-	update()
-	os.system("git clone https://github.com/4w4k3/KnockMail.git")
-	os.system("mv KnockMail ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/4w4k3/KnockMail.git", name="KnockMail", move=True, installer="None")
 
 def SCANNERINURLBR():
-	update()
-	os.system("git clone https://github.com/googleinurl/SCANNER-INURLBR.git")
-	os.system("mv SCANNER-INURLBR ~")
-	cc()
-	restart_program() 
+    instalador(url=f"https://github.com/googleinurl/SCANNER-INURLBR.git", name="SCANNER-INURLBR", move=True, installer="None")
 
 def dmitry():
-	update()
-	os.system("git clone https://github.com/jaygreig86/dmitry")
-	os.system("mv dmitry ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/jaygreig86/dmitry.git", name="dmitry", move=True, installer="None")
 
 def ShodanHat():
-	update()
-	os.system("git clone https://github.com/HatBashBR/ShodanHat.git")
-	os.system("mv ShodanHat ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/HatBashBR/ShodanHat.git", name="ShodanHat", move=True, installer="None")
 
 def Hatwitch():
-	update()
-	os.system("git clone https://github.com/HatBashBR/Hatwitch.git")
-	os.system("mv Hatwitch ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/HatBashBR/Hatwitch.git", name="Hatwitch", move=True, installer="None")
 
 def URLextractor():
-	update()
-	os.system("git clone https://github.com/eschultze/URLextractor.git")
-	os.system("mv URLextractor ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/eschultze/URLextractor.git", name="URLextractor", move=True, installer="None")
 
 def webkiller():
-	update()
-	os.system("git clone https://github.com/ultrasecurity/webkiller.git")
-	os.system("mv webkiller ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/ultrasecurity/webkiller.git", name="webkiller", move=True, installer="None")
 
 def creepy():
-	update()
-	os.system("git clone https://github.com/ilektrojohn/creepy.git")
-	os.system("mv creepy ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/ilektrojohn/creepy.git", name="creepy", move=True, installer="None")
 
 def seeker():
-	update()
-	os.system("git clone https://github.com/thewhiteh4t/seeker.git")
-	os.system("mv seeker ~")
-	os.system("cd seeker")
-	os.system("chmod 777 termux_install.sh")
-	os.system("./termux_install.sh")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/thewhiteh4t/seeker.git", name="seeker", move=True, installer="cd ~/seeker && chmod 777 termux_install.sh && ./termux_install.sh")
 
 
 
 def twifo_cli():
-	update()
-	os.system("git clone https://github.com/CodeDotJS/twifo-cli.git")
-	os.system("mv twifo-cli ~")
-	os.system("cd ~/twifo-cli")
-	os.system("pkg install nodejs")
-	os.system("npm install --global twifo-cli")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/CodeDotJS/twifo-cli.git", name="twifo-cli", move=True, installer="cd ~/twifo_cli && pkg install nodejs && npm install --global twifo-cli")
 
 
 def sherlock():
-	update()
-	os.system("git clone https://github.com/sherlock-project/sherlock.git")
-	os.system("mv sherlock ~")
-	os.system("cd ~/sherlock")
-	os.system("python3 -m pip install -r requirements.txt")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/sherlock-project/sherlock.git", name="sherlock", move=True, installer="cd ~/sherlock && python3 -m pip install -r requirements.txt")
 
 
 def osi_ig():
-	update()
-	os.system("git clone https://github.com/th3unkn0n/osi.ig.git")
-	os.system("mv osi.ig ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/th3unkn0n/osi.ig.git", name="osi.ig", move=True, installer="None")

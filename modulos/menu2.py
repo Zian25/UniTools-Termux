@@ -5,130 +5,58 @@ import time
 from Zawiencom import *
 
 def xerxes():
-	update()
-	os.system("git clone https://github.com/sepehrdaddev/Xerxes.git")
-	os.system("mv Xerxes ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/sepehrdaddev/Xerxes.git", name="xerxes", move=True, installer="None")
 
 
 def slowloris():
-	update()
-	os.system("git clone https://github.com/llaera/slowloris.pl.git")
-	os.system("mv slowloris.pl ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/llaera/slowloris.pl.git", name="slowloris.pl", move=True, installer="None")
 
 def hammer():
-	update()
-	os.system("git clone https://github.com/cyweb/hammer.git")
-	os.system("mv hammer ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/cyweb/hammer.git", name="hammer", move=True, installer="None")
 
 
 def Hunner():
-	update()
-	os.system("git clone https://github.com/b3-v3r/Hunner.git")
-	os.system("mv Hunner ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/b3-v3r/Hunner.git", name="Hunner", move=True, installer="None")
 
 def GoldenEye():
-	update()
-	os.system("git clone https://github.com/jseidl/GoldenEye.git")
-	os.system("mv GoldenEye ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/jseidl/GoldenEye.git", name="GoldenEye", move=True, installer="None")
 
 def DDosAttack():
-	update()
-	os.system("git clone https://github.com/Ha3MrX/DDos-Attack.git")
-	os.system("mv DDos-Attack ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/Ha3MrX/DDos-Attack.git", name="DDos-Attack", move=True, installer="None")
 
 def Ddoser():
-	update()
-	os.system("git clone https://github.com/ZonePy/Ddoser.git")
-	os.system("mv Ddoser ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/ZonePy/Ddoser.git", name="Ddoser", move=True, installer="None")
 
 def torshammer():
-	update()
-	os.system("git clone https://github.com/dotfighter/torshammer.git")
-	os.system("mv torshammer ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/dotfighter/torshammer.git", name="torshammer", move=True, installer="None")
 
 def LITEDDOS():
-	update()
-	os.system("git clone https://github.com/4L13199/LITEDDOS.git")
-	os.system("mv LITEDDOS ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/4L13199/LITEDDOS.git", name="LITEDDOS", move=True, installer="None")
 
 
 def hulk():
-	update()
-	os.system("git clone https://github.com/grafov/hulk.git")
-	os.system("mv hulk ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/grafov/hulk.git", name="hulk", move=True, installer="None")
 
 def MemcrashedDDoSExploit():
-	update()
-	os.system("git clone https://github.com/649/Memcrashed-DDoS-Exploit.git")
-	os.system("mv Memcrashed-DDoS-Exploit ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/649/Memcrashed-DDoS-Exploit.git", name="Memcrashed-DDoS-Exploit", move=True, installer="None")
 
 def PlanetworkDDOS():
-	update()
-	os.system("git clone https://github.com/Hydra7/Planetwork-DDOS.git")
-	os.system("mv Planetwork-DDOS ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/Hydra7/Planetwork-DDOS.git", name="Planetwork-DDOS", move=True, installer="None")
 
 def ping_of_death():
-	update()
-	os.system("git clone https://github.com/ffmancera/ping_of_death.git")
-	os.system("mv ping_of_death ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/ffmancera/ping_of_death.git", name="ping_of_death", move=True, installer="None")
 
 def IcmpiFlood():
-	update()
-	os.system("git clone https://github.com/pioneerhfy/IcmpiFlood.git")
-	os.system("mv IcmpiFlood ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/pioneerhfy/IcmpiFlood.git", name="IcmpiFlood", move=True, installer="None")
 
 def exploitblacknurse():
-	update()
-	os.system("git clone https://github.com/opsxcq/exploit-blacknurse.git")
-	os.system("mv exploit-blacknurse ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/opsxcq/exploit-blacknurse.git", name="exploit-blacknurse", move=True, installer="None")
 
 def PyFlooder():
-	update()
-	os.system("git clone https://github.com/D4Vinci/PyFlooder.git")
-	os.system("mv PyFlooder ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/D4Vinci/PyFlooder.git", name="PyFlooder", move=True, installer="None")
 
 def Saddam():
-	update()
-	os.system("git clone https://github.com/OffensivePython/Saddam.git")
-	os.system("mv Saddam ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/OffensivePython/Saddam.git", name="Saddam", move=True, installer="None")
 
 def ntpdos():
-	update()
-	os.system("git clone https://github.com/vpnguy-zz/ntpdos.git")
-	os.system("mv ntpdos ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/vpnguy-zz/ntpdos.git", name="ntpdos", move=True, installer="None")

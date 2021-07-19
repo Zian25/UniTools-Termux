@@ -6,42 +6,16 @@ import time
 from Zawiencom import *
 
 def SocialFish():
-	update()
-	os.system("git clone https://github.com/An0nUD4Y/SocialFish.git")
-	os.system("mv SocialFish ~")
-	cc()
-	restart_program()
-
+    instalador(url=f"https://github.com/An0nUD4Y/SocialFish.git", name="SocialFish", move=True, installer="None")
 
 def SocialPhish():
-	update()
-	os.system("git clone https://github.com/xHak9x/SocialPhish.git")
-	os.system("mv SocialPhish ~")
-	os.system("cd ~/SocialPhish")
-	os.system("chmod +x socialphish.sh")
-	cc()
-	restart_program()
-
+    instalador(url=f"https://github.com/xHak9x/SocialPhish.git", name="SocialPhish", move=True, installer="cd ~/SocialPhish && chmod +x socialphish.sh")
 
 def Phisherman():
-	update()
-	os.system("git clone https://github.com/FDX100/Phisher-man.git")
-	os.system("mv Phisher-man ~")
-	cc()
-	restart_program()
-
+    instalador(url=f"https://github.com/FDX100/Phisher-man.git", name="Phisher-man", move=True, installer="None")
 
 def shellphish():
-	update()
-	os.system("pkg install python2")
-	os.system("pkg install php")
-	os.system("pkg install curl")
-	os.system("git clone https://github.com/thelinuxchoice/shellphish.git")
-	os.system("mv shellphish ~")
-	os.system("cd shellphish")
-	os.system("chmod +x shellphish.sh")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/thelinuxchoice/shellphish.git", name="shellphish", move=True, installer="cd ~/shellphish && pkg install php && pkg install curl && pkg install python2 && chmod +x shellphish.sh")
 
 
 def HiddenEye():
@@ -58,63 +32,25 @@ def HiddenEye():
 
 
 def gophish():
-	update()
-	os.system("git clone https://github.com/gophish/gophish.git")
-	os.system("mv gophish ~")
-	cc()
-	restart_program()
-
+    instalador(url=f"https://github.com/gophish/gophish.git", name="gophish", move=True, installer="None")
 
 def TurkSploit():
-	update()
-	os.system("git clone https://github.com/DoughBoiKush/Turk-Sploit.git")
-	os.system("mv Turk-Sploit ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/DoughBoiKush/Turk-Sploit.git", name="Turk-Sploit", move=True, installer="None")
 
 def weeman():
-	update()
-	os.system("git clone https://github.com/evait-security/weeman.git")
-	os.system("mv weeman ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/evait-security/weeman.git", name="weeman", move=True, installer="None")
 
 def dnstwist():
-	update()
-	os.system("git clone https://github.com/elceef/dnstwist.git")
-	os.system("mv dnstwist ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/elceef/dnstwist.git", name="dnstwist", move=True, installer="None")
 
 def Phlexish():
-	update()
-	os.system("git clone https://github.com/KnightSec-Official/Phlexish.git")
-	os.system("mv Phlexish ~")
-	cc()
-	restart_program()
-
+    instalador(url=f"https://github.com/KnightSec-Official/Phlexish.git", name="Phlexish", move=True, installer="None")
 
 def zphisher():
-	update()
-	#os.system("apt-get install git php openssh curl -y")
-	os.system("git clone https://github.com/htr-tech/zphisher")
-	os.system("mv zphisher ~")
-	os.system("cd ~/zphisher")
-	os.system("chmod +x zphisher.sh")
-	cc()
-	restart_program()
-
+    instalador(url=f"https://github.com/htr-tech/zphisher", name="zphisher", move=True, installer="cd ~/zphisher && chmod +x zphisher.sh")
 
 def nexphisher():
-	update()
-	os.system("git clone https://github.com/htr-tech/nexphisher.git")
-	os.system("mv nexphisher ~")
-	os.system("cd ~/nexphisher")
-	os.system("bash tmux_setup")
-	cc()
-	restart_program()
-
-
+    instalador(url=f"https://github.com/htr-tech/nexphisher.git", name="nexphisher", move=True, installer="cd ~/nexphisher && bash tmux_setup")
 
 def grabcam():
 	instalador(url="https://github.com/noob-hackers/grabcam.git", name="grabcam", installer="pip install lolcat")

@@ -42,7 +42,7 @@ def instalador(url=None, name=None, move=True, installer=None):
 	if move != False:
 		os.system(f"mv {name} ~")
 
-	if installer != None:
+	if installer != None or installer == "None":
 		os.system(f"cd ~/{name}")
 		os.system(installer)
 

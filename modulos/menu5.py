@@ -7,11 +7,7 @@ import time
 from Zawiencom import *
 
 def FacebookBruteForce():
-	update()
-	os.system("git clone https://github.com/IAmBlackHacker/Facebook-BruteForce.git")
-	os.system("mv Facebook-BruteForce ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/IAmBlackHacker/Facebook-BruteForce.git", name="Facebook-BruteForce", move=True, installer="None")
 
 
 def Hydra():
@@ -22,19 +18,11 @@ def Hydra():
 
 
 def facebookcracker():
-	update()
-	os.system("git clone https://github.com/Ha3MrX/facebook-cracker.git")
-	os.system("mv facebook-cracker ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/Ha3MrX/facebook-cracker.git", name="facebook-cracker", move=True, installer="None")
 
 
 def Instahack():
-	update()
-	os.system("git clone https://github.com/fuck3erboy/instahack.git")
-	os.system("mv instahack ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/fuck3erboy/instahack.git", name="Instahack", move=True, installer="None")
 
 def crunch():
 	update()
@@ -44,54 +32,23 @@ def crunch():
 	restart_program()
 
 def hashcat():
-	update()
-	os.system("git clone https://github.com/hashcat/hashcat.git")
-	os.system("mv hashcat ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/hashcat/hashcat.git", name="hashcat", move=True, installer="None")
 
 def BlackHydra():
-	update()
-	os.system("git clone https://github.com/Gameye98/Black-Hydra.git")
-	os.system("mv Black-Hydra ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/Gameye98/Black-Hydra.git", name="BlackHydra", move=True, installer="None")
 
 def HashBuster():
-	update()
-	os.system("git clone https://github.com/s0md3v/Hash-Buster.git")
-	os.system("mv Hash-Buster ~")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/s0md3v/Hash-Buster.git", name="Hash-Buster", move=True, installer="None")
 
 def Facebom():
-	update()
-	os.system("git clone https://github.com/Oseid/Facebom.git")
-	os.system("mv Facebom ~")
-	os.system("pip install requests")
-	os.system("pip install mechanize")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/Oseid/Facebom.git", name="Facebom", move=True, installer="cd ~/Facebom && pip install requests && pip install mechanize")
 
 def brutespray():
-	update()
-	os.system("git clone https://github.com/hanshaze/brutespray.git")
-	os.system("mv brutespray ~")
-	os.system("cd ~/brutespray")
-	os.system("pip install -r requirements.txt")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/hanshaze/brutespray.git", name="brutespray", move=True, installer="cd ~/brutespray && pip install -r requirements.txt")
 
 
 def hyprPulse():
-	update()
-	os.system("git clone https://github.com/Pure-L0G1C/hyprPulse.git")
-	os.system("mv hyprPulse ~")
-	os.system("cd ~/hyprPulse")
-	os.system("chmod + x install.sh")
-	os.system("./install.sh")
-	cc()
-	restart_program()
+    instalador(url=f"https://github.com/Pure-L0G1C/hyprPulse.git", name="hyprPulse", move=True, installer="cd ~/hyprPulse && chmod + x install.sh && ./install.sh")
 
 
 def lazybee():
