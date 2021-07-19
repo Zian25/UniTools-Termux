@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/UniTools--Termux-V%201.1-red.svg)]()
+[![Version](https://img.shields.io/badge/UniTools--Termux-v0.1.2-red)]()
 [![Python 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)]()
 [![Build](https://img.shields.io/badge/Compativel-Termux-brightgreen.svg)]()
 [![Traduzido](https://img.shields.io/badge/Traslated%20to-3%20languages-blue.svg)]()
