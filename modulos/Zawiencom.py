@@ -18,7 +18,7 @@ def banner():
 	print ("                    #     #    #       #    " )
 	print ("                    #     #    #      # #   " )
 	print ("                    #     #    #     #   #  " )
-	print ("                     #####     #    #     #   v1.1" )
+	print ("                     #####     #    #     #   v0.1.2" )
 
 # Reiniciar Programa
 def restart_program():
@@ -42,7 +42,7 @@ def instalador(url=None, name=None, move=True, installer=None):
 	if move != False:
 		os.system(f"mv {name} ~")
 
-	if installer != None or installer == "None":
+	if installer != None or installer != "None":
 		os.system(f"cd ~/{name}")
 		os.system(installer)
 
