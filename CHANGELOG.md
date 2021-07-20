@@ -17,6 +17,10 @@ Esse formato é baseado em [Keep a Changelog](http://keepachangelog.com/)
 - Funções legadas
 
 
+### Corrigido
+- Função 'instalador' com erros de verificação.
+
+
 ## [0.1.1] - 13/01/2020
 
 ### Adicionado 
