@@ -101,42 +101,4 @@ def root_es():
 		pass
 	else:
 		restart_program()
-
-
-# Path
-def path_pip():
-	pip_path = "/data/data/com.termux/files/usr/tmp/pip"
-	if os.path.isdir(os.path.join(pip_path)) != True:
-		os.system("pkg install python")
-	else:
-		pass
-
-def python3_path():
-	python3_path = "/data/data/com.termux/files/usr/tmp/python3"
-	if os.path.isdir(os.path.join(python3_path)) != True:
-		os.system("pkg install python")
-
-	else:
-		pass
-def path_pip2():
-	pip2_path = "/data/data/com.termux/files/usr/tmp/pip2"
-	if os.path.isdir(os.path.join(pip2_path)) != True:
-		os.system("pkg install python2")
-	else:
-		pass
 		
-def python2_path():
-	python2_path = "/data/data/com.termux/files/usr/tmp/python2"
-	if os.path.isdir(os.path.join(python2_path)) != True:
-		os.system("pkg install python2")
-
-	else:
-		pass
-
-# Fim das Utilidades
-
-
-# inicio do pacote
-def menu_pacote_1():
-	os.system("clear")
-
