@@ -31,18 +31,10 @@ cd UniTools-Termux
 python3 utx.py
 ```
 
-# Aviso
-Ao longo do tempo haverá mais ferramentas e funções
+# Desktop (Linux)
+Confira a versão Desktop feita por <a href="https://github.com/Ahosall">Ahosall</a>
 
-
-Now translated to English!
-
-
-Ahora traducido al español!
-
-
-
-
+Desktop: <a href="https://github.com/Ahosall/UniTools">UniTools</a>
 
 # Imagem
 <img src="modulos/utx.jpg">
