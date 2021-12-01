@@ -54,4 +54,9 @@ def nexphisher():
 
 def grabcam():
 	instalador(url="https://github.com/noob-hackers/grabcam.git", name="grabcam", installer="pip install lolcat")
-	
+
+def saycheese():
+    instalador(url=f"https://github.com/blackc03r/saycheese.git", name="saycheese", move=True, installer="None")
+
+def seeu():
+    instalador(url=f"https://github.com/noob-hackers/seeu.git", name="seeu", move=True, installer="cd ~/seeu && termux-setup-storage && pkg install curl -y && pkg install wget -y && pkg install php -y")

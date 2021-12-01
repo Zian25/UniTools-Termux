@@ -263,6 +263,8 @@ def pedido_3_pt():
 			print ("  [11] zphisher")
 			print ("  [12] nexphisher")
 			print ("  [13] grabcam")
+			print ("  [14] saycheese")
+			print ("  [15] seeU")
 			print ("  [00] Sair para o menu\n")
 			menu3 = input("Selecione uma opção: ")
 
@@ -308,6 +310,12 @@ def pedido_3_pt():
 
 			elif menu3 == "13":
 				grabcam()
+			
+			elif menu3 == "14":
+				saycheese()
+
+			elif menu3 == "15":
+				seeu()
 
 			else:
 				erro()
@@ -405,6 +413,8 @@ def pedido_5_pt():
 			print ("  [10] brutespray")
 			print ("  [11] hyprPulse")
 			print ("  [12] Lazybee (Wordlist gen)")
+			print ("  [13] Instabruteforce")
+			print ("  [14] HackFacebokpass")
 			print ("  [00] Para sair para o menu\n")
 
 			menu5 = input("Selecione uma opção: ")
@@ -448,6 +458,12 @@ def pedido_5_pt():
 
 			elif menu5 == "12":
 				lazybee()
+
+			elif menu5 == "13":
+				Instabruteforce()
+
+			elif menu5 == "14":
+				HackFacebokpass()
 
 			else:
 				erro()

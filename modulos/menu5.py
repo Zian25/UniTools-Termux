@@ -54,3 +54,13 @@ def hyprPulse():
 def lazybee():
 	instalador(url="https://github.com/noob-hackers/lazybee.git", 
 	name="lazybee", installer="pkg install python2 -y && pip install lolcat -y")
+
+
+def Instabruteforce():
+    instalador(url=f"https://github.com/Hackertrackersj/Instabruteforce.git", name="Instabruteforce", move=True, installer="cd ~/Instabruteforce && pip install pipenv && pipenv --python 3.9 && pipenv install")
+
+
+def HackFacebokpass():
+    instalador(url=f"https://github.com/lunnar211/HackFacebokpass.git", name="HackFacebokpass", move=True, installer="cd ~/HackFacebokpass && chmod +x * && pip2 install requests && pip2 install mechanize")
+
+
