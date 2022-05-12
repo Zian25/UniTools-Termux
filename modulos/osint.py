@@ -133,3 +133,19 @@ def sherlock():
 
 def osi_ig():
     instalador(url=f"https://github.com/th3unkn0n/osi.ig.git", name="osi.ig", move=True, installer="None")
+
+def Arjun():
+    instalador(url=f"https://github.com/s0md3v/Arjun.git", name="Arjun", move=True, installer="cd ~/Arjun && python3 setup.py install")
+
+def CloudFail():
+    instalador(url=f"https://github.com/m0rtem/CloudFail.git", name="CloudFail", move=True, installer="cd ~/CloudFail && pip3 install -r requirements.txt && apt install python3-setuptools")
+
+def dnstwist():
+    instalador(url=f"https://github.com/elceef/dnstwist.git", name="dnstwist", move=True, installer="cd ~/dnstwist && apt install dnstwist")
+
+def holehe():
+    instalador(url=f"https://github.com/megadose/holehe.git", name="holehe", move=True, installer="cd ~/holehe && python3 setup.py install")
+
+def pwnedOrNot():
+    instalador(url=f"https://github.com/thewhiteh4t/pwnedOrNot.git", name="pwnedOrNot", move=True, installer="cd ~/pwnedOrNot && chmod +x install.sh && ./install.sh")
+
