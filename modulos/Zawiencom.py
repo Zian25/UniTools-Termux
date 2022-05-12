@@ -18,7 +18,7 @@ def banner():
 	print ("                    #     #    #       #    " )
 	print ("                    #     #    #      # #   " )
 	print ("                    #     #    #     #   #  " )
-	print ("                     #####     #    #     #   v0.1.3" )
+	print ("                     #####     #    #     #   v0.1.4" )
 
 # Reiniciar Programa
 def restart_program():

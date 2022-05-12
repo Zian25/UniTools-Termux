@@ -1,11 +1,11 @@
 import sys
 import random
 from Zawiencom import *
-from menu1 import *
-from menu2 import *
-from menu3 import *
-from menu4 import *
-from menu5 import *
+from osint import *
+from dos import *
+from phishing import *
+from exploit import *
+from bruteforce import *
 from autoinstalador import *
 
 def pedido_1_en():
