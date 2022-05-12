@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 
+
 #def instalador(url=None, name=None, move=True, installer=None):
 #	update()
 #	if url != None:
@@ -12,7 +13,6 @@ import os
 #	if installer != None:
 #		os.system(f"cd ~/{name}")
 #		os.system(installer)
-
 
 def main():
     name = input("Digite o nome da ferramenta: ")

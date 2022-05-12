@@ -8,14 +8,13 @@ import random
 import re
 sys.path.append("modulos")
 from Zawiencom import *
-from menu1 import *
-from menu2 import *
-from menu3 import *
-from menu4 import *
-from menu5 import *
+from osint import *
+from dos import *
+from phishing import *
+from exploit import *
+from bruteforce import *
 from autoinstalador import *
 from conf import *
-# from Zawie import *
 
 
 idioma = open("modulos/idioma.txt", "r+")
@@ -85,7 +84,7 @@ with open("modulos/idioma.txt", "r") as a:
 			#from var_es import *
 			pass
 
-
+from swaplanguage import *
 
 #Inicio do script (Menu)
 def main():
@@ -111,22 +110,22 @@ def main():
 			os.system("clear")
 
 			if pedido == "1" or pedido == "01":
-				pedido_1_pt()
+				osint()
 
 			elif pedido == "2" or pedido == "02":
-				pedido_2_pt()
+				dos()
 
 			elif pedido == "3" or pedido == "03":
-				pedido_3_pt()
+				phishing()
 
 			elif pedido == "4" or pedido == "04":
-				pedido_4_pt()
+				exploit()
 
 			elif pedido == "5" or pedido == "05":
-				pedido_5_pt()
+				bruteforce()
 
 			elif pedido == "6" or pedido == "06":
-				pedido_6_pt()
+				autoinstall()
 
 			elif pedido == "7" or pedido == "07":
 				pedido_7_pt()
@@ -164,22 +163,22 @@ def main():
 			print("\n")
 			pedido = input("Select an option: ")
 			if pedido == "1" or pedido == "01":
-				pedido_1_pt()
+				osint()
 
 			elif pedido == "2" or pedido == "02":
-				pedido_2_pt()
+				dos()
 
 			elif pedido == "3" or pedido == "03":
-				pedido_3_pt()
+				phishing()
 
 			elif pedido == "4" or pedido == "04":
-				pedido_4_pt()
+				exploit()
 
 			elif pedido == "5" or pedido == "05":
-				pedido_5_pt()
+				bruteforce()
 
 			elif pedido == "6" or pedido == "06":
-				pedido_6_pt()
+				autoinstall()
 
 			elif pedido == "7" or pedido == "07":
 				pedido_7_pt()
@@ -219,22 +218,22 @@ def main():
 			print ("\n")
 			pedido = input("Seleccione una opción: ")
 			if pedido == "1" or pedido == "01":
-				pedido_1_pt()
+				osint()
 
 			elif pedido == "2" or pedido == "02":
-				pedido_2_pt()
+				dos()
 
 			elif pedido == "3" or pedido == "03":
-				pedido_3_pt()
+				phishing()
 
 			elif pedido == "4" or pedido == "04":
-				pedido_4_pt()
+				exploit()
 
 			elif pedido == "5" or pedido == "05":
-				pedido_5_pt()
+				bruteforce()
 
 			elif pedido == "6" or pedido == "06":
-				pedido_6_pt()
+				autoinstall()
 
 			elif pedido == "7" or pedido == "07":
 				pedido_7_pt()
