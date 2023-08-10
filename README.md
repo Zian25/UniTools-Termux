@@ -1,42 +1,43 @@
-[![Version](https://img.shields.io/badge/UniTools--Termux-v0.1.2-red)]()
-[![Python 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)]()
-[![Build](https://img.shields.io/badge/Compativel-Termux-brightgreen.svg)]()
-[![Traduzido](https://img.shields.io/badge/Traslated%20to-3%20languages-blue.svg)]()
+<div align="center">
+  <h1> UniTools-Termux </h1>
+  <p>An application for conveniently downloading hacking tools, available in four languages: English, Portuguese, Spanish, and Russian!</p>
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+  <br><br>
+  <p><strong>Status</strong><p></p>
+  <img src="https://badgen.net/github/release/Zian25/UniTools-Termux">
+  <img src="https://badgen.net/github/releases/Zian25/UniTools-Termux">
+  <br><br>
+</div>
+<br>
 
-
-
-# UniTools-Termux
-Instalador de ferramentas hacking para termux 
-
-
-Hacking tool installer for Termux 
-
-
-Instalador de herramientas de hacking para Termux 
-
-
-It contains English translation!
-
-
-¡Contiene traducción al español!
-
-Como usar?
-
+<div align="left">
+<h1>Instalation</h1>
+<p>Use the latest version of Python 3.</p>
 
 ```
 pkg install git
+```
+
+```
 pkg install python
+```
+
+```
 git clone https://github.com/Zian25/UniTools-Termux
+```
+
+```
 cd UniTools-Termux
+```
+```
 python3 utx.py
 ```
 
+
 # Desktop (Linux)
-Confira a versão Desktop feita por <a href="https://github.com/Ahosall">Ahosall</a>
+Please review the Desktop version created by <a href="https://github.com/Ahosall">Ahosall</a>
 
-Desktop: <a href="https://github.com/Ahosall/UniTools">UniTools</a>
+Desktop version: <a href="https://github.com/Ahosall/UniTools">UniTools</a>
 
-# Imagem
-<img src="modulos/utx.jpg">
-
-
+</div>
