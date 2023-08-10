@@ -1,0 +1,38 @@
+{
+  "input": "Selecciona una opción: ",
+  "inputSet": "Ingresa un nuevo valor para ",
+  "return": "[X] Volver al menú",
+  "saveSet": "¿Te gustaría guardar los ajustes?",
+  "restart": "[i] Es necesario reiniciar el programa para aplicar los cambios.",
+  "error": "¡Ha ocurrido un error durante la ejecución del programa!",
+  "invalid": "La opción seleccionada no es válida.",
+  "warningConfig": "[!] ¡Atención! Modificar estos valores podría interrumpir potencialmente la funcionalidad del programa.",
+  "downloadSuccess": "Descarga completada exitosamente en",
+  "alreadyInstalled": "Instalado",
+  "options": [
+    {
+      "display": "[1] Recopilación de información"
+    },
+    {
+      "display": "[2] Denegación de servicio (DoS)"
+    },
+    {
+      "display": "[3] Phishing"
+    },
+    {
+      "display": "[4] Explotación"
+    },
+    {
+      "display": "[5] Fuerza bruta"
+    },
+    {
+      "display": "[6] Utilidades"
+    },
+    {
+      "display": "[7] Configuración"
+    },
+    {
+      "display": "[0] Salir"
+    }
+  ]
+}

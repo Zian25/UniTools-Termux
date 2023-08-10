@@ -1,0 +1,74 @@
+[
+  {
+    "name": "xerxes",
+    "url": "https://github.com/sepehrdaddev/Xerxes.git"
+  },
+  {
+    "name": "slowloris.pl",
+    "url": "https://github.com/llaera/slowloris.pl.git"
+  },
+  {
+    "name": "hammer",
+    "url": "https://github.com/cyweb/hammer.git"
+  },
+  {
+    "name": "Hunner",
+    "url": "https://github.com/b3-v3r/Hunner.git"
+  },
+  {
+    "name": "GoldenEye",
+    "url": "https://github.com/jseidl/GoldenEye.git"
+  },
+  {
+    "name": "DDos-Attack",
+    "url": "https://github.com/Ha3MrX/DDos-Attack.git"
+  },
+  {
+    "name": "Ddoser",
+    "url": "https://github.com/ZonePy/Ddoser.git"
+  },
+  {
+    "name": "torshammer",
+    "url": "https://github.com/dotfighter/torshammer.git"
+  },
+  {
+    "name": "LITEDDOS",
+    "url": "https://github.com/4L13199/LITEDDOS.git"
+  },
+  {
+    "name": "hulk",
+    "url": "https://github.com/grafov/hulk.git"
+  },
+  {
+    "name": "Memcrashed-DDoS-Exploit",
+    "url": "https://github.com/649/Memcrashed-DDoS-Exploit.git"
+  },
+  {
+    "name": "Planetwork-DDOS",
+    "url": "https://github.com/Hydra7/Planetwork-DDOS.git"
+  },
+  {
+    "name": "ping_of_death",
+    "url": "https://github.com/ffmancera/ping_of_death.git"
+  },
+  {
+    "name": "IcmpiFlood",
+    "url": "https://github.com/pioneerhfy/IcmpiFlood.git"
+  },
+  {
+    "name": "exploit-blacknurse",
+    "url": "https://github.com/opsxcq/exploit-blacknurse.git"
+  },
+  {
+    "name": "PyFlooder",
+    "url": "https://github.com/D4Vinci/PyFlooder.git"
+  },
+  {
+    "name": "Saddam",
+    "url": "https://github.com/OffensivePython/Saddam.git"
+  },
+  {
+    "name": "ntpdos",
+    "url": "https://github.com/vpnguy-zz/ntpdos.git"
+  }
+]

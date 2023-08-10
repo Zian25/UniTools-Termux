@@ -1,0 +1,38 @@
+{
+  "input": "Select an option: ",
+  "inputSet": "Enter a new value for ",
+  "return": "[X] Return to menu",
+  "saveSet": "Would you like to save the settings?",
+  "restart": "[i] Restarting the programme is necessary to apply the changes.",
+  "error": "An error has occurred during programme execution!",
+  "invalid": "The selected option is invalid.",
+  "warningConfig": "[!] Attention: Modifying these values could potentially disrupt the functionality of the program!",
+  "downloadSuccess": "Download completed successfully at",
+  "alreadyInstalled": "Installed",
+  "options": [
+    {
+      "display": "[1] Information gathering"
+    },
+    {
+      "display": "[2] DoS"
+    },
+    {
+      "display": "[3] Phishing"
+    },
+    {
+      "display": "[4] Exploitation"
+    },
+    {
+      "display": "[5] Brute-force"
+    },
+    {
+      "display": "[6] Utils"
+    },
+    {
+      "display": "[7] Settings"
+    },
+    {
+      "display": "[0] Exit"
+    }
+  ]
+}

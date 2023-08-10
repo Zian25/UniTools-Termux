@@ -1,0 +1,10 @@
+{
+    "language": -1,
+    "path": null,
+    "auto-update": true,
+    "menuSpace": 3,
+    "sleep": 3,
+    "preferGit": false,
+    "debug": true,
+    "version": "1.0.0-Alpha"
+}

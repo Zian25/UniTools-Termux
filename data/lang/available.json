@@ -1,0 +1,20 @@
+{
+  "languages": [
+    {
+      "name": "English",
+      "path": "data/lang/english.json"
+    },
+    {
+      "name": "Português Brasileiro",
+      "path": "data/lang/portuguese.json"
+    },
+    {
+      "name": "Español",
+      "path": "data/lang/spanish.json"
+    },
+    {
+      "name": "Русский",
+      "path": "data/lang/russian.json"
+    }
+  ]
+}
