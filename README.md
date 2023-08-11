@@ -30,6 +30,10 @@ git clone https://github.com/Zian25/UniTools-Termux
 cd UniTools-Termux
 python3 utx.py
 ```
+Would you like to test the latest versions in alpha or beta?
+```
+git clone --branch dev https://github.com/Zian25/UniTools-Termux
+```
 
 # Desktop (Linux)
 Confira a versão Desktop feita por <a href="https://github.com/Ahosall">Ahosall</a>
