@@ -34,7 +34,8 @@ def listTools(option: int):
         try:
             src.core.clear()
             for item in toolsLen:
-                if os.path.exists(cachedSettings['path']+'/'+menu[item]['name']):
+                currentToolPath = os.path.join(cachedSettings['path'], menu[item]['name'])
+                if os.path.exists(currentToolPath):
                     print(space + f"{green}{item}: {menu[item]['name']}{white}")
                 else:
                     print(space+f"{item}: {menu[item]['name']}")
@@ -46,9 +47,9 @@ def listTools(option: int):
             if choose == "all":
                 # TODO
                 pass
+
             if choose in availableTools:
                 src.core.downloadTool(menu[int(choose)])
-                pass
 
         except ValueError:
             src.core.clear()
