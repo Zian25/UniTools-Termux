@@ -42,7 +42,7 @@ def banner():
     print(f"                     #####     #    #     #   v{getVersion()}")
 
 
-def error(description, fatal=False, restart=False):
+def error(description: str, fatal=False, restart=False):
     print(description)
     if fatal:
         exit(1)
@@ -117,12 +117,12 @@ def changeSettings():
                 if 0 <= choice < available:
                     key = keys[choice]
                     value = values[choice]
-                    if key.lower() in ["language", "menuSpace", "sleep"]:
+                    if key.lower() in ["language", "menuspace", "sleep"]:
                         new_value = int(input(space() + getVars['inputSet'] + f"{key}: "))
                         cachedSettings[key] = new_value
                         src.settings.Settings.setSettings(cachedSettings)
 
-                    elif key.lower() in ["auto-update", "debug", "preferGit"]:
+                    elif key.lower() in ["auto-update", "debug", "prefergit"]:
                         new_value_str = input(space() + getVars['inputSet'] + f"{key}: ")
                         new_value = new_value_str.lower() == "true"
                         cachedSettings[key] = new_value
