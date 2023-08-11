@@ -51,7 +51,7 @@ def error(description, fatal=False, restart=False):
 
 
 def updateUTX():
-    subprocess.run(["git", "pull"], shell=True)
+    subprocess.run(["git pull"], shell=True)
 
 
 def updateTermux():

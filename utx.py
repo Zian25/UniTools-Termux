@@ -63,6 +63,5 @@ if __name__ == '__main__':
     if cachedSettings["auto-update"] and not cachedSettings["debug"]:
         clear()
         updateUTX()
-        src.core.restart_program()
         
     main()
