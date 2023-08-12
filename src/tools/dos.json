@@ -70,5 +70,17 @@
   {
     "name": "ntpdos",
     "url": "https://github.com/vpnguy-zz/ntpdos.git"
+  },
+  {
+    "name": "MHDDoS",
+    "url": "https://github.com/MatrixTM/MHDDoS.git"
+  },
+  {
+    "name": "Impulse",
+    "url": "https://github.com/LimerBoy/Impulse.git"
+  },
+  {
+    "name": "DDoS-Ripper",
+    "url": "https://github.com/palahsu/DDoS-Ripper.git"
   }
 ]

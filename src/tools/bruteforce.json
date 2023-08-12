@@ -54,5 +54,17 @@
   {
     "name": "HackFacebokpass",
     "url": "https://github.com/lunnar211/HackFacebokpass.git"
+  },
+  {
+    "name": "SocialBox-Termux",
+    "url": "https://github.com/samsesh/SocialBox-Termux.git"
+  },
+  {
+    "name": "EMAGNET",
+    "url": "https://github.com/wuseman/EMAGNET.git"
+  },
+  {
+    "name": "ighack",
+    "url": "https://github.com/noob-hackers/ighack.git"
   }
 ]
