@@ -39,7 +39,7 @@ git clone --branch dev https://github.com/Zian25/UniTools-Termux
 ```
 Do you prefer the old version of UniTools?
 ```
-git clone --branch master https://github.com/Zian25/UniTools-Termux
+git clone --branch old https://github.com/Zian25/UniTools-Termux
 ```
 
 # Desktop (Linux)
