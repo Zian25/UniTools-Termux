@@ -37,6 +37,10 @@ Would you like to test the latest versions in alpha or beta? (It may be unstable
 ```
 git clone --branch dev https://github.com/Zian25/UniTools-Termux
 ```
+Do you prefer the old version of UniTools?
+```
+git clone --branch master https://github.com/Zian25/UniTools-Termux
+```
 
 # Desktop (Linux)
 Please review the Desktop version created by <a href="https://github.com/Ahosall">Ahosall</a>
