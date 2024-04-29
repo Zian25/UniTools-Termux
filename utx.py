@@ -52,7 +52,7 @@ def main():
 
 if __name__ == '__main__':
     cachedSettings = Settings.getSettings()
-    if cachedSettings['language'] not in range(src.settings.Language.enum()):
+    if cachedSettings['language'] not in range(src.settings.Language.enum()+1):
         src.core.setLanguageInput()
         src.core.restart_program()
 
