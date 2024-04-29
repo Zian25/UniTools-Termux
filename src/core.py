@@ -64,7 +64,7 @@ def setLanguageInput():
         src.core.clear()
         print(space() + "Please select a language\n")
         cachedLang.listLanguages()
-        choose = int(input(space() + getVars['input']))
+        choose = int(input(space() + "Select an option: "))
         if choose <= cachedLang.enum():
             cachedSettings['language'] = choose
             src.settings.Settings.setSettings(cachedSettings)
@@ -88,18 +88,19 @@ def downloadTool(toolObj: object):
 def changeSettings():
     keys = list(cachedSettings.keys())
     values = list(cachedSettings.values())
+    langs = src.settings.Language.available()
     available = len(keys)
     changes = 0
-
     while True:
         try:
             src.core.clear()
             print(f"\n{space()}{red}{getVars['warningConfig']}{white}\n")
-            cachedLang.listLanguages()
-            print("\n")
 
             for i, key in enumerate(keys):
-                print(space() + f"[{i}] {key}: {values[i]}")
+                if key.lower() == "language":
+                    print(space() + f"[{i}] {key}: {langs['languages'][values[i]]['name']}")
+                else:
+                    print(space() + f"[{i}] {key}: {values[i]}")
 
             if changes >= 1:
                 print(space() + f"[R] Restart")
@@ -117,15 +118,16 @@ def changeSettings():
                 if 0 <= choice < available:
                     key = keys[choice]
                     value = values[choice]
-                    if key.lower() in ["language", "menuspace", "sleep"]:
+                    if key.lower() in ["language"]:
+                        setLanguageInput()
+
+                    elif key.lower() in ["menuspace", "sleep"]:
                         new_value = int(input(space() + getVars['inputSet'] + f"{key}: "))
                         cachedSettings[key] = new_value
                         src.settings.Settings.setSettings(cachedSettings)
 
                     elif key.lower() in ["auto-update", "debug", "prefergit"]:
-                        new_value_str = input(space() + getVars['inputSet'] + f"{key}: ")
-                        new_value = new_value_str.lower() == "true"
-                        cachedSettings[key] = new_value
+                        cachedSettings[key] = not cachedSettings[key]
                         src.settings.Settings.setSettings(cachedSettings)
 
                     elif key.lower() in ["path"]:
