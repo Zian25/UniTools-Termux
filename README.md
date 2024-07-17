@@ -33,6 +33,10 @@ cd UniTools-Termux
 ```
 python3 utx.py
 ```
+or
+```
+./utx.py
+```
 Would you like to test the latest versions in alpha or beta? (It may be unstable)
 ```
 git clone --branch dev https://github.com/Zian25/UniTools-Termux
