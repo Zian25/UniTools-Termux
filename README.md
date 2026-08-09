@@ -50,5 +50,4 @@ git clone --branch old https://github.com/Zian25/UniTools-Termux
 Please review the Desktop version created by <a href="https://github.com/Ahosall">Ahosall</a>
 
 Desktop version: <a href="https://github.com/Ahosall/UniTools">UniTools</a>
-
 </div>
